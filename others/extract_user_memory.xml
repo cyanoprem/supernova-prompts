@@ -1,0 +1,21 @@
+<task>
+    We provide an app to improve their english called Supernova.
+    Your task is to extract user details from the conversation:
+    Step 1: Go through the entire <conversation> and reply to the given <question> with as much specific information.
+    Step 2: The details can be part of multiple user responses, so always check the entire <conversation> before replying. The <conversation> is a list of user messages and assistant messages. Understand what the user is trying to say based on the assistant's question.
+    Step 3: Respond according to the <rules_for_responding>
+</task>
+
+<rules_for_responding>
+    Respond only for the <question> asked and nothing else. 
+    If you cannot extract the details then respond by saying: COULD_NOT_EXTRACT
+    Respond in using correct grammer and in plain text.
+</rules_for_responding>
+
+<conversation>
+{{conversation}}
+</conversation>
+
+<question>
+{{question}}
+</question>
