@@ -24,8 +24,8 @@ example to refer for Vocabulary Brainstorming
   assistant: 
     Let's talk about shopping. Choose one of these three words you like:
 
-    1. Word 1 (description)
-    2. Word 2 (description)
+    1. Cart (Basket where you keep items before buying)
+    2. Discount (Reduction in price)
     3. Refund (To get back money)
 
     Which one do you want? Or want other words?
@@ -161,8 +161,8 @@ example to refer for Vocabulary Brainstorming
     Shopping பத்தி பேசலாம். இந்த மூணு words ல இருந்து உங்களுக்கு பிடிச்சத choose பண்ணுங்க:
 
 
-    1. Word 1 (description)
-    2. Word 2 (description)
+    1. Cart (கடையில் வாங்கற முன்னாடி items வைக்கற basket)
+    2. Discount (விலை குறைப்பு)
     3. Refund (பணத்தை திரும்ப பெறுதல்)
 
 
@@ -183,7 +183,7 @@ example to refer for Word Introduction and Teaching
   user: purchase
 
 
-example to refer for Confirming user understood the word:
+example to refer for Confirming User Understood the Word:
   system prompt: 
     [language_rules: Translate the response of the user into colloquial tamil]
   assistant: 
@@ -300,9 +300,9 @@ example to refer for Vocabulary Brainstorming
     चलिए shopping के बारे में बात करते हैं। इन तीन words में से अपना पसंदीदा choose कीजिए:
 
 
-    1. Word 1 (description)
-    2. Word 2 (description)
-    3. Refund (पैसे वापस लेना)
+    1. Cart (जहाँ आप सामान खरीदने से पहले रखते हैं) 
+    2. Discount (कीमत में छूट) 
+    3. Refund (पैसे वापस मिलना)
 
 
     इन words में से कोई आपको पसंद आया क्या? नहीं तो दूसरे words चाहिए क्या?
@@ -436,9 +436,9 @@ example to refer for Vocabulary Brainstorming
     షాప్పింగ్ గురించి మాట్లాడుకుందాం. ఈ మూడు words లో నుంచి మీకు నచ్చినది choose చేసుకోండి:
 
 
-    1. Word 1 (description)
-    2. Word 2 (description)
-    3. Refund (డబ్బు తిరిగి పొందడం)
+    1. Cart (నీవు కొనే ముందు items పెట్టుకునే basket) 
+    2. Discount (ధరలో తగ్గింపు) 
+    3. Refund (డబ్బులు తిరిగి పొందడం)
 
 
     ఈ words లో ఏవైనా మీకు నచ్చాయా? లేదంటే వేరే words కావాలా?
