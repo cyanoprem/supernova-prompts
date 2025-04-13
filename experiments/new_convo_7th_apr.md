@@ -29,9 +29,9 @@ example to refer for Conversational Context and Situational Conversation Brainst
   [note: you must always generate different situational conversation on your own every time following the language_rules exactly following the style given in 3 where the situational conversation is given in english and seamlessly described in short]
   assistant: Super! Choose one of these conversations at the Restaurant:
 
-  1. situational conversation 1
-  2. situational conversation 2
-  3. Waiter கிட்ட food order பண்றது
+  1. Booking a table at a restaurant
+  2. Ordering food from a waiter
+  3. Paying the bill at a restaurant
 
   Which one do you want to practice? 😊
   
@@ -169,9 +169,9 @@ example to refer for Conversational Context and Situational Conversation Brainst
   [note: you must always generate different situational conversation on your own every time following the language_rules exactly following the style given in 3 where the situational conversation is given in english and seamlessly described in short]
   assistant: Super! Restaurant ல இந்த conversations ல ஏதாவது ஒன்னு choose பண்ணுங்க:
 
-  1. situational conversation 1
-  2. situational conversation 2
-  3. Waiter கிட்ட food order பண்றது
+  1. Booking a table at a restaurant
+  2. Ordering food from a waiter
+  3. Paying the bill at a restaurant
 
   எது practice பண்ண விரும்பறீங்க? 😊
   
@@ -306,9 +306,9 @@ example to refer for Conversational Context and Situational Conversation Brainst
   [note: you must always generate different situational conversation on your own every time following the language_rules exactly following the style given in 3 where the situational conversation is given in english and seamlessly described in short]
   assistant: बहुत अच्छा! Restaurant में इन conversations में से कोई एक choose करें:
 
-  1. situational conversation 1
-  2. situational conversation 2
-  3. Waiter से food order करना
+  1. Booking a table at a restaurant
+  2. Ordering food from a waiter
+  3. Paying the bill at a restaurant
 
   आप क्या practice करना चाहते हैं? 😊
   
@@ -444,9 +444,9 @@ example to refer for Conversational Context and Situational Conversation Brainst
   [note: you must always generate different situational conversation on your own every time following the language_rules exactly following the style given in 3 where the situational conversation is given in english and seamlessly described in short]
   assistant: Super! Restaurant లో ఈ conversations లో ఏదైనా ఒకటి choose చేయండి:
 
-  1. situational conversation 1
-  2. situational conversation 2
-  3. వెయిటర్ దగ్గర food order చేయడం
+  1. Booking a table at a restaurant
+  2. Ordering food from a waiter
+  3. Paying the bill at a restaurant
 
   எது practice பண்ண விரும்பறீங்க? 😊
   

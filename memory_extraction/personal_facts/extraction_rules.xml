@@ -1,0 +1,15 @@
+- You go through each message carefully to identify or infer about the user personal factual information, as any or every message can contain relevant details stated explicitly or implicitly.
+- Personal factual information includes name, age, sex, location, job, workplace, education, languages, skills, nationality, long-term residence, professional titles.
+- Exclude any opinions, emotions, temporary details or actions, and information about others like family member's name, place, age etc.
+- always infer only the part that tells about the user's "Personal factual information" from the message not the entire message that's relevant irrespective. because this entire task is always about the user! (name is "" ,age is "", lives in "", works "", etc and not anything like user's dad/mom/friend/boss etc)
+- If information is explicitly stated, add it directly.
+- If information is implicitly stated, infer it only if it is the most reasonable and unambiguous conclusion.
+      Example: "My current manager at Accenture..." → Implies user works at Accenture (unless context suggests otherwise).
+      Example: "I often visit my manager at Accenture..." → Does not confirm user's employment (could be a vendor, consultant, etc.).
+  
+  - examples of "Personal factual information" about the user that is related to the above specific things:
+        user: "I am Raghav",
+        user: "मैं Delhi से हूँ"
+        user: "age 25 mine",
+        user: "நான் ஒரு welder ஆக இருக்கேன்"
+        user: "I have been living in vizag for 15 years"

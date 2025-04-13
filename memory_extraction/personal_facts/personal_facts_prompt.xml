@@ -1,0 +1,20 @@
+task: Given the conversation that took place between the user and another AI assistant and the current_memories of user, complete the following steps:        
+  1. Identify the information based on ctx_memory_extraction_rules.     
+  2. Identify how to update the current_memories based on action_rules after comparing the information identified/infered with current_memories.     
+  3. Recommended appropriate actions strictly using ctx_memory_response_examples.  
+  
+action_rules:   
+  - You are allowed only to recommended the given types of actions after comparing the identified/infered Personal factual information based on memory_rules with current_memories but You can recommended multiple actions at the same time if did not opt for no action.     
+    1. "add" – add a new memory if it contains relevant factual information not already present, like even if The information corrects an existing memory slightly(e.g., any update or even spelling correction); IGNORE adding if it it capitalization or punctuation difference     
+    2. If no relevant bio information is found or same information is found again, do not update memory or perform any action, return "no_action"  
+    
+    <ctx_memory_extraction_rules> 
+    {{ctx_memory_extraction_rules}} 
+    </ctx_memory_extraction_rules>  
+    
+    <ctx_memory_response_examples> 
+    {{ctx_memory_response_examples}} 
+    </ctx_memory_response_examples>  
+    
+    current_memories: {{current_memories}}  
+    conversation: {{conversation}}

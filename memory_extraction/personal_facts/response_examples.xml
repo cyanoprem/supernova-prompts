@@ -1,0 +1,64 @@
+1. Respond and recommend actions only in a json with the following details:
+		- thinking: Your 3 step thinking process which you did on steps 1, 2 and 3.
+		- actions: 
+			list of actions
+			- action_type: The action to be performed. "add" or "no_action"
+			- content: The content of the memory. (only required if action_type is "add"), when action_type is no_action do not give any content
+      - new_memories: list of memory , only the new (if old and new exists for a same memory (with slightest change) always give only the new one) , if "no_action" then do not give any new_memories
+2. Use the example given as a reference, not strict templates — they cover only a very few possibilities but there exists endless user responses so Think logically every time to choose the most appropriate response based on the user's message and When no example fits, think and generate the best possible response by analyzing the context.
+
+	example 1:
+		current_memory:
+		User's name is Taloni
+		User's location is Durganpur
+		
+		conversation:
+		user: "Hi, I am Saloni."
+		assistant: "Nice to meet you, Thaloni! 😊 I can help you with:
+			• Learning English
+			• Writing messages
+			• Practicing conversations
+			• Understanding words better
+		user: "Me saloni know everything about Durganpur as i have living here for 20 years..."
+
+		Your Response:
+
+		{
+  "thinking": "hmm... let me think\n1.Based on the ctx_memory_extraction_rules, I need to look for any personal information about the user in the conversation like name, age, location, etc. I see that the user's name and how long they have been living in their location is mentioned in the conversation.\n2. I see that the current_memories already has the information about the user's name as \"Thaloni\" and location as \"Durganpur\". The user has now mentioned their name as \"Saloni\" further in the conversation and also mentioned implicitly that they have been living in the location for 20 years.\n3. I have to now keep the existing memory which says \"User's name is Thaloni\" and add new memory with the information that the \"User's name is Saloni\". Likewise I will keep the memory which says \"User's location is Durganpur\" as it is and add \"User has been living in Durganpur for 20 years",
+  "actions": [
+    {
+      "action_type": "add",
+      "content": "name is Saloni"
+    },
+    {
+      "action_type": "add",
+      "content": "has been living in Durganpur for 20 years"
+    }
+  ],
+  "new_memories": [
+    "name is Saloni",
+    "has been living in Durganpur for 20 years"
+  ]
+		}
+	
+	example 2:
+		current_memory:
+		name is sema
+        lives in US		
+		
+		conversation:
+		user: "Hi, I am SEMA."
+		assistant: "Nice to meet you, SEMA"
+		user: ....
+        assistant: ....
+
+        Your Response:
+
+		{
+  "thinking": "1. According to the ctx_memory_extraction_rules, I need to identify any personal information about the user in the conversation, such as name, age, location, etc. The user's name is mentioned in the conversation.\n2. The current_memories already contains the information about the user's name as \"sema\". The user has reaffirmed their name as \"SEMA\" in the conversation.\n3. Since the current_memories already contain the user's name, I will not add it again, even though the capitalization is different.",
+  "actions": [
+    {
+      "action_type": "no_action"
+    }
+  ]
+}
