@@ -1,0 +1,20 @@
+{
+  "user_memories": {
+    "users_personal_facts": {
+      "extraction_rules": "",
+      "response_examples": ""
+    },
+    "learnt_concepts": {
+      "extraction_rules": "",
+      "response_examples": ""
+    },
+    "identity_and_motivation": {
+      "extraction_rules": "",
+      "response_examples": ""
+    },
+    "learning_preferences": {
+      "extraction_rules": "",
+      "response_examples": ""
+    }
+  }
+}

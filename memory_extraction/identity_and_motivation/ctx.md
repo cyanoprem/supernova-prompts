@@ -1,6 +1,4 @@
-You are a memory extraction agent trained to extract only the identity and motivation of the user from the <conversation> between user and ai assistant.
-
-#extraction rules:
+extraction_rules
 - go through each user message carefully — any message may contain relevant identity information and motivation facts, either explicitly or implicitly.
 - extract identity and motivation only related to the user. 
 - valid identity information include:
@@ -29,20 +27,10 @@ You are a memory extraction agent trained to extract only the identity and motiv
 - if a memory is implied clearly and reasonably, infer it and mark with `[inferred]`  
 - only update or add memory if it's new, more specific, or corrects an earlier one
 
-#response examples:
-1. Respond and recommend actions only in a json with the following details:
-		- thinking: Your thinking process which you did on steps 1, 2, 3 etc.
-		- actions: 
-			list of actions
-			- action_type: The action to be performed. "add" or "no_action"
-			- content: The content of the memory. (only required if action_type is "add"), when action_type is no_action do not give any content
-      - new_memories: list of memory , only the new (if old and new exists for a same memory (with slightest change) always give only the new one) , if "no_action" then do not give any new_memories
-2. Use the example given as a reference, not strict templates — they cover only a very few possibilities but there exists endless user responses so Think logically every time to choose the most appropriate response based on the user's message and When no example fits, think and generate the best possible response by analyzing the context.
-
-
+response_examples
 example 1:
 current_memory:
-name is Sachin Rathod 
+id: 1, name is Sachin Rathod 
 
 conversation:
 user: “mujhe English bolna seekhna hai, kyunki High Court aur Supreme Court mein English hi chalti hai. To mera jo education hai, vo ab tak BA mein hua hai, Bachelor of Art…”
@@ -55,7 +43,7 @@ assistant: “Perfect! जो हमने अभी तक बात की ह
 
 your response:
 {
-  "thinking": "1. the user said ‘main LLB first year ka student hoon’, which clearly tells me their current academic role, so I will add that. 2. they also said ‘mera jo education hai, vo ab tak BA mein hua hai’, which implies prior study in a BA program but does not confirm completion — so the memory should be inferred and not stated as a completed degree. 3. the user mentioned they want to learn English because ‘High Court aur Supreme Court mein English hi chalti hai’, which reflects a professional motivation tied to their legal career. 4. they also expressed belief in AI’s speed and usefulness for learning English, indicating they are motivated to use AI tools. I will add these as new memory facts, but I will revise the BA memory to reflect it as an inference, not a confirmed degree.",
+  "thinking": "Found new identity information: that the user is an LLB first-year student and completed a Bachelor of Arts degree before pursuing law, new motivation facts: to learn English because legal proceedings in the High Court and Supreme Court are conducted in English. Current memory already has the user's name. Need to add new information about the user's education and motivation.",
   "actions": [
     {
       "action_type": "add",
@@ -73,18 +61,12 @@ your response:
       "action_type": "add",
       "content": "is motivated to use AI tools for fast and effective English learning"
     }
-  ],
-  "new_memories": [
-    "is an LLB first-year student",
-    "completed a Bachelor of Arts degree before pursuing law",
-    "wants to learn English because legal proceedings in the High Court and Supreme Court are conducted in English",
-    "is motivated to use AI tools for fast and effective English learning"
   ]
 }
 
 example 2:
 current_memory:
-wants to become fluent in English speaking and improve grammar to confidently speak in front of others 
+id: 1, wants to become fluent in English speaking and improve grammar to confidently speak in front of others 
 
 conversation:
 assistant: “ज़रूर! मैं आपकी English में help करूंगी…”
@@ -92,18 +74,17 @@ user: “मुझे English बोलने में दिक्कत आ�
 
 your response:
 {
-  "thinking": "1. the user's motivation is already in memory. 2. the user explained they want to become fluent in English speaking and improve grammar to confidently speak in front of others — which matches current motivation. 3. since there is no new or more specific info, no action is needed.",
+  "thinking": "The user has mentioned their motivation to become fluent in English speaking and improve grammar to confidently speak in front of others. This motivation is already in memory. No new or more specific information is found, so no action is needed.",
   "actions": [
     {
       "action_type": "no_action"
     }
-  ],
-  "new_memories": []
+  ]
 }
 
 example 3:
 current_memory:
-none
+id 1: is a cash teller at a private bank
 
 conversation:
 assistant: “చాలా బాగుంది! మీరు స్కూల్ స్టూడెంటా, కాలేజ్ స్టూడెంటా, హౌస్‌వైఫా, ఉద్యోగం చేస్తున్నారా, బిజినెస్ ఓనరా లేదా జాబ్ సీకరా?”
@@ -123,7 +104,7 @@ user: “We talk to our customers in English… I have to explain these things t
 
 your response:
 {
-  "thinking": "1. the user mentioned they are a private employee working at a bank and later clarified their role as a sales officer, so I will add that as identity. 2. they also shared they are from Karim Nagar, which gives a location-based identity. 3. the user explained that they struggle with understanding and replying to emails from the company and communicating with customers, showing a clear motivation to improve English for professional communication. 4. additionally, the user said they find it difficult to explain customer issues to their boss and write emails, which highlights another specific motivation related to workplace communication. I will add these as new memory facts.",
+  "thinking": "Found new identity information: that the user is a sales officer at a private bank and from Karim Nagar, new motivation facts: to improve English because they struggle with understanding and replying to emails from the company and communicating with customers, and to explain customer issues to their boss and write professional emails. The current memory about the user being a cash teller at a private bank is incorrect. Need to update the memory with the correct information. And add new identity and motivation information.",
   "actions": [
     {
       "action_type": "add",
@@ -140,13 +121,12 @@ your response:
     {
       "action_type": "add",
       "content": "wants to improve English to explain customer issues to their boss and write professional emails."
+    },
+    {
+      "action_type": "remove",
+      "id": 1,
+      "reasoning": "The current memory about the user being a cash teller at a private bank is incorrect. Need to update the memory with the correct information."
     }
-  ],
-  "new_memories": [
-    "is a sales officer at a private bank",
-    "is from Karim Nagar",
-    "wants to improve English because they struggle with understanding and responding to company emails and communicating with customers",
-    "wants to improve English to explain customer issues to their boss and write professional emails."
   ]
 }
 
@@ -186,15 +166,6 @@ your response:
       "action_type": "add",
       "content": "wants to learn English to attend interviews and get a job"
     }
-  ],
-  "new_memories": [
-    "is studying first-year International Law in college.",
-    "is from Visakhapatnam (Vizag)",
-    "wants to learn English to attend interviews and get a job"
   ]
 }
-
-<conversation>
-  {{conversation}}
-</conversation>
 

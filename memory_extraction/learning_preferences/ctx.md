@@ -1,6 +1,4 @@
-You are a memory extraction agent trained to analyze <conversation> between user and ai assistant and extract the user's learning preferences. Your job is to read the full conversation and capture how the user prefers to learn english — in terms of content style, difficulty level, time that can be spent for learning per day, format, or method.
-
-#Extraction rules:
+extraction_rules
 - Read every message carefully to detect stated or implied learning preferences
 - Extract only factual and clear learning preferences such as:
   - Time commitment:
@@ -26,21 +24,10 @@ You are a memory extraction agent trained to analyze <conversation> between user
 - Do not extract emotional tone, temporary preferences, or curiosity unless clearly tied to ongoing learning style
 - Infer a preference only if it is clearly stated or unambiguously implied
   
-#response examples:
-1. Respond and recommend actions only in a json with the following details:
-		- thinking: Your 3 step thinking process which you did on steps 1, 2 and 3.
-		- actions: 
-			list of actions
-			- action_type: The action to be performed. "add" or "no_action"
-			- content: The content of the memory. (only required if action_type is "add"), when action_type is no_action do not give any content
-      - new_memories: list of memory , only the new (if old and new exists for a same memory (with slightest change) always give only the new one) , if "no_action" then do not give any new_memories
-2. Use the example given as a reference, not strict templates — they cover only a very few possibilities but there exists endless user responses so Think logically every time to choose the most appropriate response based on the user's message and When no example fits, think and generate the best possible response by analyzing the context.
-
-
-
+response_examples
 example 1:
 current_memory:
-prefers easy vocabulary
+id: 1, prefers easy vocabulary
 
 conversation:
 user: “haan main samajh raha hun aur aap bahut hi achche tareeke se mujhe padhaaoge aur hame daily kitna der dena hai English ke liye kyuki mujhe padhai bhi karni rahti hai law student hone ke naate.”
@@ -51,7 +38,7 @@ assistant: “आपका enthusiasm बहुत अच्छा है!… �
 
 your response:
 {
-  "thinking": "1. the user mentioned they have a busy schedule as a law student and asked how much time they should spend daily, indicating a preference for short daily study sessions. 2. they also asked how many months it would take to improve their English speaking and writing skills, showing they are goal-oriented and focused on a timeline for progress. 3. I will add these as new learning preferences.",
+  "thinking": "Found new learning preferences: that the user prefers short daily study sessions (20–30 minutes) due to a busy schedule as a law student, and is goal-oriented and wants to know the timeline for improvement in English speaking and writing skills. Current memory does not have the new found learning preferences. Need to add new information about the user's learning preferences.",
   "actions": [
     {
       "action_type": "add",
@@ -61,17 +48,12 @@ your response:
       "action_type": "add",
       "content": "is goal-oriented and wants to know the timeline for improvement in English speaking and writing skills."
     }
-
-  ],
-  "new_memories": [
-    "prefers short daily study sessions (20–30 minutes) due to a busy schedule as a law student.",
-    "is goal-oriented and wants to know the timeline for improvement in English speaking and writing skills."
   ]
 }
 
 example 2:
 current_memory:
-prefers grammar explanations
+id: 1, prefers grammar explanations
 
 conversation:
 user: “cheddamandi nenu koncham work lo unnanu koncham sepu ante break time lo nenu vachi malli class teesukuntanu”
@@ -79,21 +61,18 @@ assistant: “Ok, తప్పకుండా! మీ break time లో రం�
 
 your response:
 {
-  "thinking": "1. the user implies they prefer grammar explanations and sentence breakdowns. 2. this matches current memory, so nothing new to add. 3. no action is needed.",
+  "thinking": "Found new learning preferences: that the user prefers to learn during work breaks and is looking for a flexible learning schedule. Current memory does not have the new found learning preference. So the new learning preference has to be added.",
   "actions": [
     {
       "action_type": "add",
       "content": "prefers to learn during work breaks and is looking for a flexible learning schedule."
     }
-  ],
-  "new_memories": [
-    "prefers to learn during work breaks and is looking for a flexible learning schedule."
   ]
 }
 
 example 3:
 current_memory:
-prefers grammar explanations
+id: 1, can only spend 15 minutes per day to learn English
 
 conversation:
 assistant: "नमस्ते! Supernova AI Spoken English App में आपका welcome! आप मेरे सभी questions का जवाब Hindi में दीजिए। यह ok है?"
@@ -104,7 +83,7 @@ assistant: "Super! मैं आपको personalized lessons और activities
 
 your response:
 {
-  "thinking": "1. Analyzed the full conversation to understand the user's learning context and preferences. 2. Identified that the user is a job seeker preparing for interviews, with specific time availability and learning needs. 3. Extracted clear preferences about time commitment, learning goals, and current challenges.",
+  "thinking": "Found new learning preferences: that the user can only spend 30 minutes to 1 hour per day for learning English, and prefers Hindi explanations and instructions, and wants to improve confidence in speaking English during interviews, and has flexibility in schedule as they're not very busy during the day. Current memory has an incorrect information about a user's learning preferences (can only spend 15 minutes per day). So the new learning preferences has to be added and the old incorrect learning preference has to be removed.",
   "actions": [
     {
       "action_type": "add",
@@ -121,18 +100,12 @@ your response:
     {
       "action_type": "add",
       "content": "has flexibility in schedule as they're not very busy during the day"
+    },
+    {
+      "action_type": "remove",
+      "id": 1,
+      "reasoning": "The current memory about the user being a cash teller at a private bank is incorrect. Need to update the memory with the correct information."
     }
-  ],
-  "new_memories": [
-    "can spend 30 minutes to 1 hour per day for learning English",
-    "prefers Hindi explanations and instructions",
-    "wants to improve confidence in speaking English during interviews",
-    "has flexibility in schedule as they're not very busy during the day"
   ]
 }
-
-
-<conversation>
-  {{conversation}}
-</conversation>
 
