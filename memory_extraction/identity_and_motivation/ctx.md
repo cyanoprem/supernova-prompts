@@ -1,6 +1,10 @@
 extraction_rules
-- go through each user message carefully — any message may contain relevant identity information and motivation facts, either explicitly or implicitly.
-- extract identity and motivation only related to the user. 
+- Here is the context of the extraction: the user has downloaded an app called Supernova, which comes with an AI English Tutor. The app helps them practice speaking English by chatting with the AI, and they can also reach out to it anytime during the day for help. Your job is to go through those conversations between the user and the AI, and pull out any useful info—like their name, age, where they’re from, or what’s driving them to learn English. Maybe it’s for work, school, travel, or just personal growth. Basically, you’re looking for anything that gives you a sense of who the user is and why they’re using the app, extract it using the rules detailed below.
+
+
+- go through each user message carefully of this conversation carefully
+— any message may contain relevant identity information and motivation facts, either explicitly or implicitly.
+- extract identity and motivation to learn english on the app only related to the user. 
 - valid identity information include:
   - Name  
   - Age / Life Stage
@@ -19,9 +23,12 @@ extraction_rules
   - Migration / Global Access
   - Personal Growth / Hobbies
 
+
 - do not extract:
   - opinions, emotions, temporary details or random actions  
-  - information about others (e.g., father’s name, mother’s job, friend’s location)  
+  - information about others (e.g., father’s name, mother’s job, friend’s location)
+  - any information from the assistant's message unless it's directly related to the user's identity and motivation for learning english on the app
+
 
 - if a memory is explicitly stated, record it exactly  
 - if a memory is implied clearly and reasonably, infer it and mark with `[inferred]`  

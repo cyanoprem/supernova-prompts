@@ -1,4 +1,6 @@
 extraction_rules
+- The user has downloaded an app called Supernova, which comes with an AI English Tutor. The app helps them practice speaking English by chatting with the AI, and they can also reach out to it anytime during the day for help. Your job is to go through those conversations between the user and the AI, and pull out any useful information about the user’s learning preferences—such as the type of content they enjoy (e.g., roleplays, grammar exercises), their preferred difficulty level, how much time per day they are willing or able to spend learning, and what kind of formats or methods they respond well to (e.g., listening, speaking or reading).Basically, you’re looking for anything that gives you a sense of how the user prefers to learn English, so the experience can be better personalized for them. Extract it using the rules detailed below.
+
 - Read every message carefully to detect stated or implied learning preferences
 - Extract only factual and clear learning preferences such as:
   - Time commitment:
@@ -21,8 +23,19 @@ extraction_rules
     - Wants to learn grammar concepts
     - Wants to learn vocabulary
     - Wants conversation practice
+  - Infer a preference only if it is clearly stated or unambiguously implied
+  - if a memory is explicitly stated, record it exactly  
+  - if a memory is implied clearly and reasonably, infer it and mark with `[inferred]`  
+  - only update or add memory if it's new, more specific, or corrects an earlier one  
+
 - Do not extract emotional tone, temporary preferences, or curiosity unless clearly tied to ongoing learning style
-- Infer a preference only if it is clearly stated or unambiguously implied
+- Do not extract:
+  - opinions, emotions, temporary details or random actions  
+  - information about others (e.g., father’s name, mother’s job, friend’s location)
+  - any information from the assistant's message unless it's directly related to the user's preferences for learning english on the app
+  - do not extract user's identity and motivation only extract learning preferences
+    - Ex: don't extract "user is a law student", "user is a teacher", "user want to improve english for job"
+
   
 response_examples
 example 1:
