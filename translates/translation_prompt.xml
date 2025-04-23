@@ -1,0 +1,267 @@
+<task>
+    Your only task to translate the given <text_to_translate> in english to <target_language> using the given <translation_rules> while keeping the overall meaning and respond using <response_rules>.
+</task>
+<context>
+    These translations will be used either for generating english lessons for kids or creating marketing content for a spoken english app.
+</context>
+<translation_rules>
+    Pick the translation rules that matches the target language.
+    <translation_rules_telugu>
+        Apply these rules in the given order:
+        1. Use simple, informal, conversational and colloquial Telugu that an everyday speaker would use.
+            examples:
+            - She will be singing -> ఆమె పాడుతూ ఉంటుంది
+            - I need to run -> నేను పరుగెత్తాలి
+            - He was eating -> అతను తిన్నాడు
+
+        2. Use english words in english text in the following cases:
+                - The Telugu equivalent is too formal or complex or outdated.
+                    eg: I am gardening -> నేను gardening చేస్తున్నాను
+                - For grammar related concepts and terms:
+                    eg: We use present continuous tense to talk about actions happening right now ->  ప్రస్తుతం జరుగుతున్న చర్యల గురించి మాట్లాడటానికి present continuous tense ఉపయోగిస్తాము
+                - When the English word is commonly used in daily speech for words like computer, phone, internet, office, bus, train, time, late, ready, clean, help, not, hint, shine, example, consistent etc.
+                    eg: Can I help you? -> నేను మీకు help చెయ్యాలా?
+                    eg: They spoke quietly while the baby slept -> baby నిద్రపోతున్నప్పుడు వారు నిశ్శబ్దంగా మాట్లాడారు
+                - When a sentence inside the <text_to_translate> is inside quotes.
+                    eg: Which is correct? "I am sad" - Can you help me? -> ఏది సరైనది? "I am sad" - మీరు నాకు help చేయగలరా?
+                    eg: Try saying "My favorite fruit is mango and my favorite vegetable is carrot." -> "My favorite fruit is mango and my favorite vegetable is carrot." చెప్పడానికి try చేయండి.
+                - For common english phrases, expressions and pleasantries:
+                    like "Hi there!", "For example", "Correct!", "Perfect!", "Congrats!", "Thank you!" etc.
+                - For proper nouns, brand names, people names, places etc:
+                    eg: Martin wants to dance -> Martin dance చేయాలనుకుంటున్నాడు
+                    eg: Bella cleans the room -> Bella roomని శుభ్రం చేస్తుంది
+
+        3. Use sentence structure which is appropriate for a telugu sentence.
+            eg: In the sentence "He was strong," what is the linking verb? -> " He was strong," sentence లో linking verb ఏది?
+            eg: I bought a new book - నేను కొత్త book కొన్నాను
+            eg: You are cleaning -> మీరు clean చేస్తున్నారు
+    </translation_rules_telugu>
+
+    <translation_rules_tamil>
+        Apply these rules in the given order:
+        1. Use simple, informal, conversational and colloquial Tamil that an everyday speaker would use.
+            examples:
+            - She will be singing -> அவள் பாடிட்டு இருப்பாள்
+            - I need to run -> எனக்கு ஓட வேண்டும்
+            - He was eating -> அவன் சாப்பிட்டுக்கிட்டு இருந்தான்
+            - He Studys -> அவன் படிக்கிறான்
+
+
+        2. Retain english words in english text in the following cases:
+                - The Tamil equivalent is too formal or complex or outdated.
+                    eg: I am gardening -> நான் gardening பண்ணிட்டு இருக்கேன்
+                - For grammar related concepts and terms:
+                    eg: We use present continuous tense to talk about actions happening right now -> இப்ப நடந்திட்டு இருக்க actions அ பத்தி பேச present continuous tense ஐ use பண்றோம்
+                - When the English word is commonly used in daily speech for words like computer, phone, internet, office, bus, train, time, late, ready, clean, help, not, hint, shine, example, consistent etc.
+                    eg: Can I help you? -> நான் உங்களுக்கு help பண்ணட்டுமா?
+                    eg: They spoke quietly while the baby slept -> baby தூங்கும்போது அவங்க மெதுவா பேசிட்டு இருந்தாங்க
+                - When a sentence inside the <text_to_translate> is inside quotes.
+                    eg: Which is correct? "I am sad" - Can you help me? -> எது சரி? "I am sad" - எனக்கு help பண்ண முடியுமா?
+                    eg: Try saying "My favorite fruit is mango and my favorite vegetable is carrot." -> நீங்க இப்படி சொல்ல try பண்ணுங்க: "My favorite fruit is mango and my favorite vegetable is carrot." 
+                - For common english phrases, expressions and pleasantries:
+                    like Hi there!, For example, eg, example Correct!, Perfect!, Congrats!, Thank you! etc.
+                - For proper nouns, brand names, people names, places etc:
+                    eg: Martin wants to dance -> Martin dance ஆட விரும்புகிறார்
+                    eg: Bella cleans the room -> Bella room ஐ clean பண்றாள்
+
+        3. Use sentence structure which is appropriate for a tamil sentence.
+            eg: In the sentence "He was strong," what is the linking verb? -> "He was strong," sentence ல linking verb எது?
+            eg: I bought a new book -> நான் ஒரு புது book வாங்கினேன்
+            eg: You are studying -> நீங்க study பண்ணிட்டு இருக்கீங்க
+            eg:  Perfect! How would you offer a pen to a stranger you met at the bank? Remember to use 'Would you like' in the sentence. -> Perfect! Bank ல பாக்குற stranger கிட்ட எப்படி pen offer பண்ணுவிங்க? "Would you like" ஐ sentence ல use பண்ண நினைவு வச்சுக்கோங்க.
+    </translation_rules_tamil>
+
+    <translation_rules_hindi>
+        Apply these rules in the given order:
+        1. Use simple, informal, conversational and colloquial Hindi that an everyday speaker would use.
+            examples:
+            - She will be singing -> वह गा रही होगी
+            - I need to run -> मुझे दौड़ना है
+            - He was eating -> वह खा रहा था
+
+        2. Use english words in english text in the following cases:
+                - The Hindi equivalent is too formal or complex or outdated.
+                    eg: I am gardening -> मैं gardening कर रहा हूँ
+                - For grammar related concepts and terms:
+                    eg: We use present continuous tense to talk about actions happening right now -> अभी की actions के बारे में बात करने के लिए हम present continuous tense use करते हैं
+                - When the English word is commonly used in daily speech for words like computer, phone, internet, office, bus, train, time, late, ready, clean, help, not, hint, shine, example, consistent etc.
+                    eg: Can I help you? -> क्या मैं आपकी help कर सकता हूँ?
+                    eg: They spoke quietly while the baby slept -> baby के सोते समय वे धीरे से बात कर रहे थे
+                - When a sentence inside the <text_to_translate> is inside quotes.
+                    eg: Which is correct? "I am sad" - Can you help me? -> कौन सा सही है? "I am sad" - क्या आप मेरी help कर सकते हैं?
+                    eg: Try saying "My favorite fruit is mango and my favorite vegetable is carrot." -> "My favorite fruit is mango and my favorite vegetable is carrot." बोलने की कोशिश करें
+                - For common english phrases, expressions and pleasantries:
+                    like "Hi there!", "For example", "Correct!", "Perfect!", "Congrats!", "Thank you!" etc.
+                - For proper nouns, brand names, people names, places etc:
+                    eg: Martin wants to dance -> Martin dance करना चाहता है
+                    eg: Bella cleans the room -> Bella room clean करती है
+
+        3. Use sentence structure which is appropriate for a hindi sentence.
+            eg: In the sentence "He was strong," what is the linking verb? -> "He was strong," sentence में linking verb क्या है?
+            eg: I bought a new book -> मैंने एक नई book खरीदी
+            eg: You are cleaning -> आप clean कर रहे हैं
+    </translation_rules_hindi>
+
+    <translation_rules_marathi>
+        Apply these rules in the given order:
+        1. Use simple, informal, conversational and colloquial Marathi that an everyday speaker would use.
+            examples:
+            - She will be singing -> वह गा रही होगी
+            - I need to run -> मुझे दौड़ना है
+            - He was eating -> वह खा रहा था
+
+        2. Use english words in english text in the following cases:
+                - The Marathi equivalent is too formal or complex or outdated.
+                    eg: I am gardening -> मैं gardening कर रहा हूँ
+                - For grammar related concepts and terms:
+                    eg: We use present continuous tense to talk about actions happening right now -> अभी की actions के बारे में बात करने के लिए हम present continuous tense use करते हैं
+                - When the English word is commonly used in daily speech for words like computer, phone, internet, office, bus, train, time, late, ready, clean, help, not, hint, shine, example, consistent etc.
+                    eg: Can I help you? -> क्या मैं आपकी help कर सकता हूँ?
+                    eg: They spoke quietly while the baby slept -> baby के सोते समय वे धीरे से बात कर रहे थे
+                - When a sentence inside the <text_to_translate> is inside quotes.
+                    eg: Which is correct? "I am sad" - Can you help me? -> कौन सा सही है? "I am sad" - क्या आप मेरी help कर सकते हैं?
+                    eg: Try saying "My favorite fruit is mango and my favorite vegetable is carrot." -> "My favorite fruit is mango and my favorite vegetable is carrot." बोलने की कोशिश करें
+                - For common english phrases, expressions and pleasantries:
+                    like "Hi there!", "For example", "Correct!", "Perfect!", "Congrats!", "Thank you!" etc.
+                - For proper nouns, brand names, people names, places etc:
+                    eg: Martin wants to dance -> Martin dance करना चाहता है
+                    eg: Bella cleans the room -> Bella room clean करती है
+
+        3. Use sentence structure which is appropriate for a marathi sentence.
+            eg: In the sentence "He was strong," what is the linking verb? -> "He was strong," sentence में linking verb क्या है?
+            eg: I bought a new book -> मैंने एक नई book खरीदी
+            eg: You are cleaning -> आप clean कर रहे हैं
+    </translation_rules_marathi>
+
+    <translation_rules_gujarati>
+        Apply these rules in the given order:
+        1. Use simple, informal, conversational and colloquial Gujarati that an everyday speaker would use.
+            examples:
+            - She will be singing -> वह गा रही होगी
+            - I need to run -> मुझे दौड़ना है
+            - He was eating -> वह खा रहा था
+
+        2. Use english words in english text in the following cases:
+                - The Gujarati equivalent is too formal or complex or outdated.
+                    eg: I am gardening -> मैं gardening कर रहा हूँ
+                - For grammar related concepts and terms:
+                    eg: We use present continuous tense to talk about actions happening right now -> अभी की actions के बारे में बात करने के लिए हम present continuous tense use करते हैं
+                - When the English word is commonly used in daily speech for words like computer, phone, internet, office, bus, train, time, late, ready, clean, help, not, hint, shine, example, consistent etc.
+                    eg: Can I help you? -> क्या मैं आपकी help कर सकता हूँ?
+                    eg: They spoke quietly while the baby slept -> baby के सोते समय वे धीरे से बात कर रहे थे
+                - When a sentence inside the <text_to_translate> is inside quotes.
+                    eg: Which is correct? "I am sad" - Can you help me? -> कौन सा सही है? "I am sad" - क्या आप मेरी help कर सकते हैं?
+                    eg: Try saying "My favorite fruit is mango and my favorite vegetable is carrot." -> "My favorite fruit is mango and my favorite vegetable is carrot." बोलने की कोशिश करें
+                - For common english phrases, expressions and pleasantries:
+                    like "Hi there!", "For example", "Correct!", "Perfect!", "Congrats!", "Thank you!" etc.
+                - For proper nouns, brand names, people names, places etc:
+                    eg: Martin wants to dance -> Martin dance करना चाहता है
+                    eg: Bella cleans the room -> Bella room clean करती है
+
+        3. Use sentence structure which is appropriate for a gujarati sentence.
+            eg: In the sentence "He was strong," what is the linking verb? -> "He was strong," sentence में linking verb क्या है?
+            eg: I bought a new book -> मैंने एक नई book खरीदी
+            eg: You are cleaning -> आप clean कर रहे हैं
+    </translation_rules_gujarati>
+
+    <translation_rules_bengali>
+        Apply these rules in the given order:
+        1. Use simple, informal, conversational and colloquial Bengali that an everyday speaker would use.
+            examples:
+            - She will be singing -> সে গান গাইবে
+            - I need to run -> আমাকে দৌড়াতে হবে
+            - He was eating -> সে খাচ্ছিল
+
+        2. Use english words in english text in the following cases:
+                - The Bengali equivalent is too formal or complex or outdated.
+                    eg: I am gardening -> আমি gardening করছি
+                - For grammar related concepts and terms:
+                    eg: We use present continuous tense to talk about actions happening right now -> এখন যে actions হচ্ছে সেগুলো বলার জন্য আমরা present continuous tense use করি
+                - When the English word is commonly used in daily speech for words like computer, phone, internet, office, bus, train, time, late, ready, clean, help, not, hint, shine, example, consistent etc.
+                    eg: Can I help you? -> আমি কি আপনাকে help করতে পারি?
+                    eg: They spoke quietly while the baby slept -> baby ঘুমানোর সময় তারা আস্তে কথা বলছিল
+                - When a sentence inside the <text_to_translate> is inside quotes.
+                    eg: Which is correct? "I am sad" - Can you help me? -> কোনটা সঠিক? "I am sad" - আপনি কি আমাকে help করতে পারবেন?
+                    eg: Try saying "My favorite fruit is mango and my favorite vegetable is carrot." -> "My favorite fruit is mango and my favorite vegetable is carrot." বলার try করুন
+                - For common english phrases, expressions and pleasantries:
+                    like "Hi there!", "For example", "Correct!", "Perfect!", "Congrats!", "Thank you!" etc.
+                - For proper nouns, brand names, people names, places etc:
+                    eg: Martin wants to dance -> Martin dance করতে চায়
+                    eg: Bella cleans the room -> Bella room clean করে
+
+        3. Use sentence structure which is appropriate for a bengali sentence.
+            eg: In the sentence "He was strong," what is the linking verb? -> "He was strong," sentence-এ linking verb কোনটা?
+            eg: I bought a new book -> আমি একটা নতুন book কিনলাম
+            eg: You are cleaning -> তুমি clean করছো
+    </translation_rules_bengali>
+
+    <translation_rules_malayalam>
+        Apply these rules in the given order:
+        1. Use simple, informal, conversational and colloquial Malayalam that an everyday speaker would use.
+            examples:
+            - She will be singing -> അവൾ പാടുകയായിരിക്കും
+            - I need to run -> എനിക്ക് ഓടണം
+            - He was eating -> അവൻ കഴിക്കുകയായിരുന്നു
+
+        2. Use english words in english text in the following cases:
+                - The Malayalam equivalent is too formal or complex or outdated.
+                    eg: I am gardening -> ഞാൻ gardening ചെയ്യുകയാണ്
+                - For grammar related concepts and terms:
+                    eg: We use present continuous tense to talk about actions happening right now -> ഇപ്പോൾ നടക്കുന്ന actions-നെ കുറിച്ച് സംസാരിക്കാൻ present continuous tense use ചെയ്യുന്നു
+                - When the English word is commonly used in daily speech for words like computer, phone, internet, office, bus, train, time, late, ready, clean, help, not, hint, shine, example, consistent etc.
+                    eg: Can I help you? -> എനിക്ക് നിങ്ങളെ help ചെയ്യാമോ?
+                    eg: They spoke quietly while the baby slept -> baby ഉറങ്ങുമ്പോൾ അവർ പതുക്കെ സംസാരിച്ചു
+                - When a sentence inside the <text_to_translate> is inside quotes.
+                    eg: Which is correct? "I am sad" - Can you help me? -> ഏതാണ് ശരി? "I am sad" - നിങ്ങൾക്ക് എന്നെ help ചെയ്യാമോ?
+                    eg: Try saying "My favorite fruit is mango and my favorite vegetable is carrot." -> "My favorite fruit is mango and my favorite vegetable is carrot." എന്ന് പറയാൻ try ചെയ്യൂ
+                - For common english phrases, expressions and pleasantries:
+                    like "Hi there!", "For example", "Correct!", "Perfect!", "Congrats!", "Thank you!" etc.
+                - For proper nouns, brand names, people names, places etc:
+                    eg: Martin wants to dance -> Martin dance ചെയ്യാൻ ആഗ്രഹിക്കുന്നു
+                    eg: Bella cleans the room -> Bella room clean ചെയ്യുന്നു
+
+        3. Use sentence structure which is appropriate for a malayalam sentence.
+            eg: In the sentence "He was strong," what is the linking verb? -> "He was strong," എന്ന sentence-ൽ linking verb എന്താണ്?
+            eg: I bought a new book -> ഞാൻ ഒരു പുതിയ book വാങ്ങി
+            eg: You are cleaning -> നിങ്ങൾ clean ചെയ്യുകയാണ്
+    </translation_rules_malayalam>
+
+    <translation_rules_kannada>
+        Apply these rules in the given order:
+        1. Use simple, informal, conversational, and colloquial Kannada that an everyday speaker would use.
+            examples:
+            - She will be singing -> ಅವಳು ಹಾಡ್ತಾ ಇರ್ತಾಳೆ
+            - I need to run -> ನನಗೆ ಓಡಬೇಕಾಗಿದೆ
+            - He was eating -> ಅವನು ತಿನ್ನುತ್ತಿದ್ದ
+
+        2. Use English words in English text in the following cases:
+            - The Kannada equivalent is too formal, complex, or outdated.
+                eg: I am gardening -> ನಾನು gardening ಮಾಡ್ತಾ ಇದ್ದೀನಿ
+            - For grammar-related concepts and terms:
+                eg: The present continuous tense used to talk about actions happening right now -> Present continuous tense ನ ಬಳಕೆ ಈಗ ನಡೆಯುತ್ತಿರುವ actions ಗಳ ಬಗ್ಗೆ ಮಾತನಾಡಲು ಮಾಡುತ್ತೇವೆ
+            - When the English word is commonly used in daily speech for words like computer, phone, internet, office, bus, train, time, late, ready, clean, help, not, hint, shine, example, consistent etc.
+                eg: Can I help you? -> ನಾನು ನಿಮಗೆ help ಮಾಡಬಹುದೆ?
+                eg: You are cleaning -> ನೀವು clean ಮಾಡ್ತಾ ಇದೀರಿ
+            - When a sentence inside the <text_to_translate> is inside quotes.
+                eg: Try Saying: "She is playing cricket." -> ಹೀಗೆ ಹೇಳಲು ಪ್ರಯತ್ನಿಸಿ: "She is playing cricket."
+                eg: Is the sentence grammatically correct "This is good"? -> ಈ ವಾಕ್ಯ grammatically ಸರಿ ಇದೆಯೇ? "This is good"?
+            - For common English phrases, expressions, and pleasantries:
+                like Hi there!, For example, eg, example, Correct!, Perfect!, Congrats!, Thank you! etc.
+            - For proper nouns, brand names, people names, places etc:
+                eg: Bella cleans the room -> Bella room clean ಮಾಡ್ತಾಳೆ
+                eg: Tommy jumps everyday -> Tommy ಪ್ರತಿದಿನವೂ ಜಿಗಾಲು
+
+        3. Use sentence structure which is appropriate for a Kannada sentence.
+            eg: In "He was strong," what is the linking verb? -> "He was strong," ನಲ್ಲಿ linking verb ಯಾವುದು?
+            eg: I bought a new book -> ನಾನು ಹೊಸ ಕಥೆ ಪುಸ್ತಕವನ್ನು ಖರೀದಿದೆ
+            eg: You are happy -> ನೀವು ಖುಷಿಯಾಗಿದ್ದೀರಿ
+    </translation_rules_kannada>
+
+</translation_rules>
+
+<response_rules>
+    Give the translated text based on the thinking here
+</response_rules>
+###DYNAMIC_PART_STARTS_HERE###
+<target_language>{{target_language}}</target_language>
+<text_to_translate>{{text_to_translate}}</text_to_translate>
