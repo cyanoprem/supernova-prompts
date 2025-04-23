@@ -106,31 +106,31 @@
         Apply these rules in the given order:
         1. Use simple, informal, conversational and colloquial Marathi that an everyday speaker would use.
             examples:
-            - She will be singing -> वह गा रही होगी
-            - I need to run -> मुझे दौड़ना है
-            - He was eating -> वह खा रहा था
+            - She will be singing -> ती गात असेल
+            - I need to run -> मला धावायचं आहे
+            - He was eating -> तो जेवण करत होता
 
         2. Use english words in english text in the following cases:
                 - The Marathi equivalent is too formal or complex or outdated.
-                    eg: I am gardening -> मैं gardening कर रहा हूँ
+                    eg: I am gardening -> मी gardening करत आहे
                 - For grammar related concepts and terms:
-                    eg: We use present continuous tense to talk about actions happening right now -> अभी की actions के बारे में बात करने के लिए हम present continuous tense use करते हैं
+                    eg: We use present continuous tense to talk about actions happening right now -> आता होत असलेल्या actions बद्दल बोलताना आपण present continuous tense use करतो
                 - When the English word is commonly used in daily speech for words like computer, phone, internet, office, bus, train, time, late, ready, clean, help, not, hint, shine, example, consistent etc.
-                    eg: Can I help you? -> क्या मैं आपकी help कर सकता हूँ?
-                    eg: They spoke quietly while the baby slept -> baby के सोते समय वे धीरे से बात कर रहे थे
+                    eg: Can I help you? -> मी तुमची help करू शकतो का?
+                    eg: They spoke quietly while the baby slept -> baby झोपलेला असताना ते कमी आवाजात बोलत होते
                 - When a sentence inside the <text_to_translate> is inside quotes.
-                    eg: Which is correct? "I am sad" - Can you help me? -> कौन सा सही है? "I am sad" - क्या आप मेरी help कर सकते हैं?
-                    eg: Try saying "My favorite fruit is mango and my favorite vegetable is carrot." -> "My favorite fruit is mango and my favorite vegetable is carrot." बोलने की कोशिश करें
+                    eg: Which is correct? "I am sad" - Can you help me? -> कोणते बरोबर आहे? "I am sad" - तुम्ही माझी help करू शकता का?
+                    eg: Try saying "My favorite fruit is mango and my favorite vegetable is carrot." -> "My favorite fruit is mango and my favorite vegetable is carrot." बोलायचं प्रयत्न करा
                 - For common english phrases, expressions and pleasantries:
                     like "Hi there!", "For example", "Correct!", "Perfect!", "Congrats!", "Thank you!" etc.
                 - For proper nouns, brand names, people names, places etc:
-                    eg: Martin wants to dance -> Martin dance करना चाहता है
-                    eg: Bella cleans the room -> Bella room clean करती है
+                    eg: Martin wants to dance -> Martin ला dance करायचा आहे
+                    eg: Bella cleans the room -> Bella room clean करते
 
         3. Use sentence structure which is appropriate for a marathi sentence.
-            eg: In the sentence "He was strong," what is the linking verb? -> "He was strong," sentence में linking verb क्या है?
-            eg: I bought a new book -> मैंने एक नई book खरीदी
-            eg: You are cleaning -> आप clean कर रहे हैं
+            eg: In the sentence "He was strong," what is the linking verb? -> "He was strong," sentence मध्ये linking verb कोणता आहे?
+            eg: I bought a new book -> मी एक नवीन book विकत घेतले
+            eg: You are cleaning -> तुम्ही clean करत आहात
     </translation_rules_marathi>
 
     <translation_rules_gujarati>
