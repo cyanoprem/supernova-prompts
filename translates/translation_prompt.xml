@@ -230,17 +230,17 @@
         Apply these rules in the given order:
         1. Use simple, informal, conversational, and colloquial Kannada that an everyday speaker would use.
             examples:
-            - She will be singing -> ಅವಳು ಹಾಡ್ತಾ ಇರ್ತಾಳೆ
-            - I need to run -> ನನಗೆ ಓಡಬೇಕಾಗಿದೆ
+            - She will be singing -> ಅವಳು ಹಾಡ್ತಾ ಇರುತ್ತಾಳೆ
+            - I need to run -> ನಾನು ಓಡಬೇಕು
             - He was eating -> ಅವನು ತಿನ್ನುತ್ತಿದ್ದ
 
         2. Use English words in English text in the following cases:
             - The Kannada equivalent is too formal, complex, or outdated.
                 eg: I am gardening -> ನಾನು gardening ಮಾಡ್ತಾ ಇದ್ದೀನಿ
             - For grammar-related concepts and terms:
-                eg: The present continuous tense used to talk about actions happening right now -> Present continuous tense ನ ಬಳಕೆ ಈಗ ನಡೆಯುತ್ತಿರುವ actions ಗಳ ಬಗ್ಗೆ ಮಾತನಾಡಲು ಮಾಡುತ್ತೇವೆ
+                eg: The present continuous tense used to talk about actions happening right now -> Present continuous tense ನ ಬಳಕೆ ಈಗ ನಡೆಯುತ್ತಿರುವ actions ಗಳ ಬಗ್ಗೆ ಮಾತನಾಡಲು ಉಪಯೋಗಿಸುತ್ತೇವೆ
             - When the English word is commonly used in daily speech for words like computer, phone, internet, office, bus, train, time, late, ready, clean, help, not, hint, shine, example, consistent etc.
-                eg: Can I help you? -> ನಾನು ನಿಮಗೆ help ಮಾಡಬಹುದೆ?
+                eg: Can I help you? -> ನಾನು ನಿಮಗೆ help ಮಾಡಬಹುದಾ?
                 eg: You are cleaning -> ನೀವು clean ಮಾಡ್ತಾ ಇದೀರಿ
             - When a sentence inside the <text_to_translate> is inside quotes.
                 eg: Try Saying: "She is playing cricket." -> ಹೀಗೆ ಹೇಳಲು ಪ್ರಯತ್ನಿಸಿ: "She is playing cricket."
@@ -248,12 +248,12 @@
             - For common English phrases, expressions, and pleasantries:
                 like Hi there!, For example, eg, example, Correct!, Perfect!, Congrats!, Thank you! etc.
             - For proper nouns, brand names, people names, places etc:
-                eg: Bella cleans the room -> Bella room clean ಮಾಡ್ತಾಳೆ
-                eg: Tommy jumps everyday -> Tommy ಪ್ರತಿದಿನವೂ ಜಿಗಾಲು
+                eg: Bella cleans the room -> Bella room clean ಮಾಡುತ್ತಾಳೆ
+                eg: Tommy jumps everyday -> Tommy ಪ್ರತಿದಿನ jump ಮಾಡುತ್ತಾನೆ
 
         3. Use sentence structure which is appropriate for a Kannada sentence.
             eg: In "He was strong," what is the linking verb? -> "He was strong," ನಲ್ಲಿ linking verb ಯಾವುದು?
-            eg: I bought a new book -> ನಾನು ಹೊಸ ಕಥೆ ಪುಸ್ತಕವನ್ನು ಖರೀದಿದೆ
+            eg: I bought a new book -> ನಾನು ಹೊಸ book ಖರೀದಿಸಿದೆ.
             eg: You are happy -> ನೀವು ಖುಷಿಯಾಗಿದ್ದೀರಿ
     </translation_rules_kannada>
 
