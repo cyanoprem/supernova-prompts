@@ -133,37 +133,6 @@
             eg: You are cleaning -> तुम्ही clean करत आहात
     </translation_rules_marathi>
 
-    <translation_rules_gujarati>
-        Apply these rules in the given order:
-        1. Use simple, informal, conversational and colloquial Gujarati that an everyday speaker would use.
-            examples:
-            - She will be singing -> वह गा रही होगी
-            - I need to run -> मुझे दौड़ना है
-            - He was eating -> वह खा रहा था
-
-        2. Use english words in english text in the following cases:
-                - The Gujarati equivalent is too formal or complex or outdated.
-                    eg: I am gardening -> मैं gardening कर रहा हूँ
-                - For grammar related concepts and terms:
-                    eg: We use present continuous tense to talk about actions happening right now -> अभी की actions के बारे में बात करने के लिए हम present continuous tense use करते हैं
-                - When the English word is commonly used in daily speech for words like computer, phone, internet, office, bus, train, time, late, ready, clean, help, not, hint, shine, example, consistent etc.
-                    eg: Can I help you? -> क्या मैं आपकी help कर सकता हूँ?
-                    eg: They spoke quietly while the baby slept -> baby के सोते समय वे धीरे से बात कर रहे थे
-                - When a sentence inside the <text_to_translate> is inside quotes.
-                    eg: Which is correct? "I am sad" - Can you help me? -> कौन सा सही है? "I am sad" - क्या आप मेरी help कर सकते हैं?
-                    eg: Try saying "My favorite fruit is mango and my favorite vegetable is carrot." -> "My favorite fruit is mango and my favorite vegetable is carrot." बोलने की कोशिश करें
-                - For common english phrases, expressions and pleasantries:
-                    like "Hi there!", "For example", "Correct!", "Perfect!", "Congrats!", "Thank you!" etc.
-                - For proper nouns, brand names, people names, places etc:
-                    eg: Martin wants to dance -> Martin dance करना चाहता है
-                    eg: Bella cleans the room -> Bella room clean करती है
-
-        3. Use sentence structure which is appropriate for a gujarati sentence.
-            eg: In the sentence "He was strong," what is the linking verb? -> "He was strong," sentence में linking verb क्या है?
-            eg: I bought a new book -> मैंने एक नई book खरीदी
-            eg: You are cleaning -> आप clean कर रहे हैं
-    </translation_rules_gujarati>
-
     <translation_rules_bengali>
         Apply these rules in the given order:
         1. Use simple, informal, conversational and colloquial Bengali that an everyday speaker would use.
@@ -256,6 +225,37 @@
             eg: I bought a new book -> ನಾನು ಹೊಸ book ಖರೀದಿಸಿದೆ.
             eg: You are happy -> ನೀವು ಖುಷಿಯಾಗಿದ್ದೀರಿ
     </translation_rules_kannada>
+
+    <translation_rules_gujarati>
+        Apply these rules in the given order:
+        1. Use simple, informal, conversational and colloquial Gujarati that an everyday speaker would use.
+            examples:
+            - She will be singing -> તે ગાતી હશે
+            - I need to run -> મને દોડવું પડશે
+            - He was eating -> તે જમતો હતો
+
+        2. Use english words in english text in the following cases:
+                - The Gujarati equivalent is too formal or complex or outdated.
+                    eg: I am gardening -> હું gardening કરી રહ્યો છું
+                - For grammar related concepts and terms:
+                    eg: We use present continuous tense to talk about actions happening right now -> વર્તમાન actions વિશે વાત કરવા માટે આપણે present continuous tense use કરીએ છીએ.
+                - When the English word is commonly used in daily speech for words like computer, phone, internet, office, bus, train, time, late, ready, clean, help, not, hint, shine, example, consistent etc.
+                    eg: Can I help you? -> શું હું તમારી help કરી શકું છું
+                    eg: They spoke quietly while the baby slept -> baby સૂતું હતું ત્યારે તેઓ ધીમેથી વાતો કરી રહ્યા હતા.
+                - When a sentence inside the <text_to_translate> is inside quotes.
+                    eg: Which is correct? "I am sad" - Can you help me? -> કયું સાચું છે? "I am sad" - શું તમે મારી help કરી શકશો
+                    eg: Try saying "My favorite fruit is mango and my favorite vegetable is carrot." -> "My favorite fruit is mango and my favorite vegetable is carrot." બોલવાનો પ્રયત્ન કરો
+                - For common english phrases, expressions and pleasantries:
+                    like "Hi there!", "For example", "Correct!", "Perfect!", "Congrats!", "Thank you!" etc.
+                - For proper nouns, brand names, people names, places etc:
+                    eg: Martin wants to dance -> Martin dance કરવા ઈચ્છે છે
+                    eg: Bella cleans the room -> Bella room clean કરે છે
+
+        3. Use sentence structure which is appropriate for a Gujarati sentence.
+            eg: In the sentence "He was strong," what is the linking verb? -> "He was strong," sentence માં linking verb શું છે?
+            eg: I bought a new book -> મેં એક નવું book ખરીદ્યું.
+            eg: You are cleaning -> તમે clean કરી રહ્યા છો
+    </translation_rules_gujarati>
 
 </translation_rules>
 
