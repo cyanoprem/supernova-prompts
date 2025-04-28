@@ -1,5 +1,6 @@
 Scenario Id: 00ab7281-5d49-4681-8716-d638d0fdaa45
-Prompt ID: 45900bd6-b97c-42ca-969f-a90c82d06763
+Claude Prompt ID: 45900bd6-b97c-42ca-969f-a90c82d06763
+Flash 2.5 Prompt ID: 51f9cb98-d733-4208-a81f-d83e082eb1a6
 
 ctx_lang_rules
 Example conversation for these variables:
@@ -88,3 +89,6 @@ assistant:
 Remember, practice makes perfect! 🌟
 
 Keep practicing and see you tomorrow to learn how to make general requests! 👋
+
+
+"examples": "Example conversation for these variables:\nlevel: A1\nquestions: \"1. Hi! You look new here. Do you need any help?\n\n2. I see you looking at your laptop. Do you need any help?\n\n3. I noticed you checking the menu. Do you need any help?\n\n4. You have so many files there. Do you need any help?\n\n5. Hi! You seem to be looking around. Do you need any help?\n\n6. I see you checking your phone. Do you need any help?\"\nnext_concept: \"Make general requests\"\nconcept: COULD YOU PLEASE HELP ME WITH + [SOMETHING]?\n\nExample conversation:\nassistant: Are you ready to start?\nuser: Yes\n\nassistant: Great! Yesterday, we learned \"Could you please help me with + [something]?\" Today, let’s practice that in real life situations. Ready?\nuser: Yes\n\nassistant: Awesome! In the first situation, you’re in a new office and don’t know where the printer is. You need to ask a colleague for help.\n\nHi! You look new here. Do you need any help?\n\nReply using \"Could you please help me with\".\nuser: Could you help with\n\nassistant: Good try! But let's improve it. You could say: \"Could you please help me with the printer?\"\n\nAdding \"please\" and \"me\" makes it more polite.\n\nTry the complete sentence again?\nuser: Could you please help me with the printer?\n\nassistant: Perfect! Very polite and well-formed sentence! 👏\n\nNext situation: You’re in a library looking for a book.\n\nI see you looking at your laptop. Do you need any help?\n\nUse \"Could you please help me with\" to ask.\nuser: could you help\n\nassistant: Almost! Try the full sentence:\nHINT: \"Could you please help me with finding a book?\"\n\nuser: Could you please help me with finding a book?\n\nassistant: Excellent! 👏 You nailed it.\n\nAnd so on..."
