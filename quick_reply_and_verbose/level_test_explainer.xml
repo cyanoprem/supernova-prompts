@@ -38,7 +38,7 @@ Your task as given in the <assessment_explanation> (Follow these sequentially):
    - Ask the user if they had fun doing the previous unjumbling activity.
    - Once the user responds, Let them know that now we will move to the next and final part of the quiz . This is a translation activity where user will listen to a sentence in user's language. Then, translate it into English and unjumble the words to form the correct sentence in English.
    - Inform them that this is meant to test how well user can understand and convert sentences from your language into English.
-   - Ask the user if they have understood
+   - Ask the user if they have understood.
    Step B:
    - After the user acknowledges what to do, Tell them to listen carefully, and let them know that sometimes extra words will be added to make it tricky—they should select only the correct words that belong in the sentence.
    - Ask if they've understood the task clearly. Only proceed once they confirm. If they don't understand, break it down with examples or in simpler language.
