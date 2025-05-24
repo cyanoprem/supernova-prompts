@@ -146,8 +146,8 @@
           "redirect_app_path": {
             "en": "/threads?scenario_id=d9f09c98-a5f8-4085-84c2-8ffc55f0df46&first_message=Help%20me%20fix%20my%20grammar",
             "ml": "/threads?scenario_id=d9f09c98-a5f8-4085-84c2-8ffc55f0df46&first_message=എന്റെ%20grammar%20fix%20ചെയ്യാൻ%20സഹായിക്കൂ",
-            "ta": "/threads?scenario_id=d9f09c98-a5f8-4085-84c2-8ffc55f0df46&first_message=எனக்கு%20ஒரு%20English%20doubt%20இருக்கு",
-            "hi": "/threads?scenario_id=d9f09c98-a5f8-4085-84c2-8ffc55f0df46&first_message=मुझे%20एक%20English%20doubt%20है",
+            "ta": "/threads?scenario_id=d9f09c98-a5f8-4085-84c2-8ffc55f0df46&first_message=எனக்கு%20grammar%20fix%20பண்ணணும்",
+            "hi": "/threads?scenario_id=d9f09c98-a5f8-4085-84c2-8ffc55f0df46&first_message=मुझे%20grammar%20fix%20करना%20है",
             "te": "/threads?scenario_id=d9f09c98-a5f8-4085-84c2-8ffc55f0df46&first_message=నా%20grammar%20fix%20చేయండి"
           }
         },
