@@ -127,11 +127,11 @@
           },
           "icon_url": "https://imagedelivery.net/j8wPfYmr-_HSd9btB36ffA/4137c6e2-72db-4bf3-d281-1a5a44607500/1080x1080",
           "redirect_app_path": {
-            "en": "/threads?scenario_id=7d8e5037-bbf3-4824-9298-e73641a78ccd&first_message=Teach%20me%20English",
-            "ml": "/threads?scenario_id=7d8e5037-bbf3-4824-9298-e73641a78ccd&first_message=എനിക്ക്%20English%20പഠിപ്പിച്ചു%20തരൂ",
-            "ta": "/threads?scenario_id=7d8e5037-bbf3-4824-9298-e73641a78ccd&first_message=எனக்கு%20English%20கத்துக்கொடுங்க",
-            "hi": "/threads?scenario_id=7d8e5037-bbf3-4824-9298-e73641a78ccd&first_message=मुझे%20English%20सिखाओ",
-            "te": "/threads?scenario_id=7d8e5037-bbf3-4824-9298-e73641a78ccd&first_message=నాకు%20English%20నేర్పించండి"
+            "en": "/threads?scenario_id=7d8e5037-bbf3-4824-9298-e73641a78ccd&first_message=Teach%20me%20English!",
+            "ml": "/threads?scenario_id=7d8e5037-bbf3-4824-9298-e73641a78ccd&first_message=എനിക്ക്%20English%20പഠിപ്പിച്ചു%20തരൂ!",
+            "ta": "/threads?scenario_id=7d8e5037-bbf3-4824-9298-e73641a78ccd&first_message=எனக்கு%20English%20கத்துக்கொடுங்க!",
+            "hi": "/threads?scenario_id=7d8e5037-bbf3-4824-9298-e73641a78ccd&first_message=मुझे%20English%20सिखाओ!",
+            "te": "/threads?scenario_id=7d8e5037-bbf3-4824-9298-e73641a78ccd&first_message=నాకు%20English%20నేర్పించండి!"
           }
         },
         {
@@ -144,11 +144,11 @@
           },
           "icon_url": "https://imagedelivery.net/j8wPfYmr-_HSd9btB36ffA/f48a06d1-a7a2-4dba-089e-bc3bd6e07800/1080x1080",
           "redirect_app_path": {
-            "en": "/threads?scenario_id=08133d40-0434-477c-b0a5-75dff7e6f359&first_message=I%20need%20an%20English%20translation",
-            "ml": "/threads?scenario_id=08133d40-0434-477c-b0a5-75dff7e6f359&first_message=English%20translation%20വേണം",
-            "ta": "/threads?scenario_id=08133d40-0434-477c-b0a5-75dff7e6f359&first_message=English%20Translation%20வேணும்",
-            "hi": "/threads?scenario_id=08133d40-0434-477c-b0a5-75dff7e6f359&first_message=English%20Translation%20चाहिए",
-            "te": "/threads?scenario_id=08133d40-0434-477c-b0a5-75dff7e6f359&first_message=English%20translation%20కావాలి"
+            "en": "/threads?scenario_id=08133d40-0434-477c-b0a5-75dff7e6f359&first_message=I%20need%20an%20English%20translation!",
+            "ml": "/threads?scenario_id=08133d40-0434-477c-b0a5-75dff7e6f359&first_message=English%20translation%20വേണം!",
+            "ta": "/threads?scenario_id=08133d40-0434-477c-b0a5-75dff7e6f359&first_message=English%20Translation%20வேணும்!",
+            "hi": "/threads?scenario_id=08133d40-0434-477c-b0a5-75dff7e6f359&first_message=English%20Translation%20चाहिए!",
+            "te": "/threads?scenario_id=08133d40-0434-477c-b0a5-75dff7e6f359&first_message=English%20translation%20కావాలి!"
           }
         },
         {
@@ -161,11 +161,11 @@
           },
           "icon_url": "https://imagedelivery.net/j8wPfYmr-_HSd9btB36ffA/f0abaa14-041a-4108-8c2e-0eb7ed13e900/1080x1080",
           "redirect_app_path": {
-            "en": "/threads?scenario_id=51438f1d-c146-4355-af76-ab9740c861ef&first_message=I%20want%20to%20learn%20a%20new%20word",
-            "ml": "/threads?scenario_id=51438f1d-c146-4355-af76-ab9740c861ef&first_message=എനിക്ക്%20ഒരു%20പുതിയ%20word%20പഠിക്കണം",
-            "ta": "/threads?scenario_id=51438f1d-c146-4355-af76-ab9740c861ef&first_message=புது%20word%20கத்துக்கணும்",
-            "hi": "/threads?scenario_id=51438f1d-c146-4355-af76-ab9740c861ef&first_message=नया%20Word%20सीखना%20है",
-            "te": "/threads?scenario_id=51438f1d-c146-4355-af76-ab9740c861ef&first_message=కొత్త%20word%20నెర్చుకోవాలనుకుంటున్నాను"
+            "en": "/threads?scenario_id=51438f1d-c146-4355-af76-ab9740c861ef&first_message=I%20want%20to%20learn%20a%20new%20word!",
+            "ml": "/threads?scenario_id=51438f1d-c146-4355-af76-ab9740c861ef&first_message=എനിക്ക്%20ഒരു%20പുതിയ%20word%20പഠിക്കണം!",
+            "ta": "/threads?scenario_id=51438f1d-c146-4355-af76-ab9740c861ef&first_message=புது%20word%20கத்துக்கணும்!",
+            "hi": "/threads?scenario_id=51438f1d-c146-4355-af76-ab9740c861ef&first_message=नया%20Word%20सीखना%20है!",
+            "te": "/threads?scenario_id=51438f1d-c146-4355-af76-ab9740c861ef&first_message=కొత్త%20word%20నెర్చుకోవాలనుకుంటున్నాను!"
           }
         },
         {
@@ -178,11 +178,11 @@
           },
           "icon_url": "https://imagedelivery.net/j8wPfYmr-_HSd9btB36ffA/739915c0-f2d7-4bb9-ba19-bb3bc24bf000/1080x1080",
           "redirect_app_path": {
-            "en": "/threads?scenario_id=612a7d52-cd7f-4c69-a01e-5a8f0a5cdb49&first_message=I%20want%20to%20practice%20a%20conversation",
-            "ml": "/threads?scenario_id=612a7d52-cd7f-4c69-a01e-5a8f0a5cdb49&first_message=എനിക്ക്%20Conversation%20practice%20ചെയ്യണം",
-            "ta": "/threads?scenario_id=612a7d52-cd7f-4c69-a01e-5a8f0a5cdb49&first_message=Conversation%20Practice%20பண்ணணும்",
-            "hi": "/threads?scenario_id=612a7d52-cd7f-4c69-a01e-5a8f0a5cdb49&first_message=Conversation%20Practice%20करना%20है",
-            "te": "/threads?scenario_id=612a7d52-cd7f-4c69-a01e-5a8f0a5cdb49&first_message=Conversation%20practice%20చేయాలి"
+            "en": "/threads?scenario_id=612a7d52-cd7f-4c69-a01e-5a8f0a5cdb49&first_message=I%20want%20to%20practice%20a%20conversation!",
+            "ml": "/threads?scenario_id=612a7d52-cd7f-4c69-a01e-5a8f0a5cdb49&first_message=എനിക്ക്%20Conversation%20practice%20ചെയ്യണം!",
+            "ta": "/threads?scenario_id=612a7d52-cd7f-4c69-a01e-5a8f0a5cdb49&first_message=Conversation%20Practice%20பண்ணணும்!",
+            "hi": "/threads?scenario_id=612a7d52-cd7f-4c69-a01e-5a8f0a5cdb49&first_message=Conversation%20Practice%20करना%20है!",
+            "te": "/threads?scenario_id=612a7d52-cd7f-4c69-a01e-5a8f0a5cdb49&first_message=Conversation%20practice%20చేయాలి!"
           }
         }
       ]
