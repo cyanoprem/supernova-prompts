@@ -1,0 +1,200 @@
+- The user has downloaded an app called Supernova, which comes with an AI English Tutor. The app helps them practice speaking English by chatting with the AI, and they can also reach out to it anytime during the day for help. Your job is also to scan all user and assistant messages for concrete evidence of asked questions and discussions about specific topics, and extract only the specific questions the assistant has asked and the conversation topics the user has discussed with the assistant. This extracted memory will be useful to get the converstation context and feed in to the next conversation so that the assistant can have a better context to interact with the user and continue the conversation from where it left off.
+
+- scan all user and assistant messages for signs that the user has discussed or is actively discussing a topic
+- extract only concrete discussions such as:
+  - vocabulary: "has discussed the word 'although'"
+  - sentence: "has discussed the sentence 'i am going to the market'"
+  - grammar: "has learned how to use present perfect"
+  - phrase: "has learned the phrase 'Let's go'"
+  - conversation practice: "has learned how to interact with a shopkeeper"
+- include only if:
+  - the user repeated, acknowledged, practiced, or responded to it  
+  - the learning was clearly completed or understood (not just introduced)
+
+- do not extract partial attempts or learning intentions (e.g., "i want to learn 'although'" is not a learned concept)
+- do not extract general learning goals or style — this prompt is only for completed learnings
+- do not any information from the assistant's message unless it's directly related to the user's learning english on the app
+- do not extract user's identity and motivation or learning preferences, only concepts which they have already learnt
+ - Ex: don't extract "user is a law student", "user is a teacher", "user want to improve english for job", "user prefers learning grammar", "user has downloaded the app to learn english"
+- 	Avoid adding redundant or semantically equivalent concepts which were learnt. If multiple statements imply the same learning outcome (e.g., has practiced the word "Resume" and has learnt the word resume both mean the same), only the most specific and representative one should be added.
+
+
+
+
+
+example 1:
+current_memory:
+has practiced the usage of the word 'cuisine'
+
+
+conversation:
+assistant: పర్ఫెక్ట్! ఇప్పుడు cuisine అంటే ఏమిటో ఒక exampleతో తెలుసుకుందాం: "Cuisine" అంటే ఒక particular ప్రాంతానికి చెందిన వంటకాల శైలి లేదా రకం. For example: Italian cuisine is very popular worldwide. "Cuisine" అంటే ఏమిటో మీ సొంత మాటల్లో explain చేయగలరా?
+user: cuisine ante okko pranthamlo okko laga aaharam tintaru
+assistant: ఎక్సలెంట్! ఇప్పుడు practice చేద్దాం. First question: ఒక restaurant Italian cuisine కి famous. దీన్ని sentence structure తో ఎలా చెప్తారు? "The [place] is famous for its [cuisine] cuisine."
+user: the restaurant is famous for its Italian cuisine
+assistant: ఎక్సలెంట్! మీరు మూడు sentences పర్ఫెక్ట్‌గా చెప్పారు! ఈరోజు మీరు learn చేసిన "cuisine" word ఎలా అనిపించింది? మీ experience ఎలా ఉంది?
+user: Excellent
+
+
+  
+
+
+your response:
+{
+  "thinking": "1. the user repeated the meaning, practiced sentences with the word "cuisine" and acknowledged understanding of the word. 2. the word it is already in the learnt memory. 3. i don't have to add this so the action_type is no_action",
+  "actions": [
+    {
+      "action_type": "no_action",
+      "reasoning": "The word "cuisine" is already present in the memory and was reinforced in this conversation."
+    }
+  ]
+}
+
+
+example 2:
+current_memory:
+id: 1, has learned the sentence 'i am a teacher'
+id: 2, has learnt "Do you have this in [fabric]?"
+
+
+conversation:
+assistant:
+ఈ situations లో నుంచి ఏదో ఒకటి pick చేసుకోండి, దాన్ని మనం practice చేద్దాం:
+	1.	Ordering food at a restaurant
+	2.	Buying clothes at a shop
+	3.	At the shopping mall
+	4.	Give new topics
+నీకు ఏం కావాలి?? 🙂
+
+user:
+buying cloth that yes show
+
+assistant:
+Buying clothes బాగుంది! Buying clothes లో ఈ situations లో ఏదైనా ఒకటి choose చేయండి:
+	1.	Asking for sizes and colors
+	2.	Trying on clothes
+	3.	Paying at the billing counter
+ఏది practice చేయాలనుకుంటున్నారు? 😊
+
+user:
+asking for size and colors
+
+assistant:
+Super choice! మీరు ఏ role లో ఉండాలనుకుంటున్నారు - customer గా లేదా shop assistant గా? 😊
+
+user:
+as a customer
+
+assistant:
+Great! నేను shop assistant ని.
+Shop assistant: Hi! Welcome to our store. How can I help you today?
+మీరు shirt కోసం sizes అడుగుతూ మాట్లాడాలి. Use this sentence structure: Do you have this shirt in [size]?
+
+user:
+do you have this shirt 42 size
+
+assistant:
+Perfect!
+Shop assistant: Yes, we do. Here it is. Would you like to try it on?
+మీరు వేరే color లో చూడాలనుకుంటున్నాను అని అడగాలి. Use this sentence structure: Do you have it in [color]?
+
+user:
+do you have it in color
+
+assistant:
+Almost correct! మీరు sentence structure ని follow చేయాలి - Do you have it in [color]?
+ఇలా చెప్పడానికి try చేయండి: “Do you have it in blue?”
+దీన్ని repeat చేయండి.
+
+user:
+do you have it in blue
+
+assistant:
+Perfect!
+Shop assistant: Yes, we have it in blue as well. Here you go.
+ఇప్పుడు మీరు “ఇది వేరే fabric లో ఉందా?” అని అడగాలి. Use this sentence structure: Do you have this in [fabric]?
+
+user:
+do you have this in fabric
+
+assistant:
+Almost correct! మీరు sentence structure ని follow చేయాలి - Do you have this in [fabric]?
+ఇలా చెప్పడానికి try చేయండి: “Do you have this in cotton?”
+దీన్ని repeat చేయండి.
+
+user:
+do you have this in silk?
+
+assistant:
+Excellent! మీరు అన్ని sentence structures ని perfect గా use చేశారు!
+ఈ conversation practice ఎలా ఉంది? మీ feedback ఏంటి?
+
+user:
+yeah it’s good but I need more practice
+
+assistant:
+Super! Remember, practice makes perfect!
+
+
+your response:
+{
+  "thinking": "1. In the conversation, the user practiced a structured roleplay as a customer in a clothes shop with the AI acting as the shop assistant. The user successfully learned and used multiple sentence structures during the interaction. 2. Comparing this with the existing memory: the sentence 'Do you have this in [fabric]?' is already present and was reinforced here, so no action is needed for that. The user also learned three new sentence patterns that were not previously recorded. 3. These new learnings will be added, while repeated items from existing memory will be marked as no_action.",
+  "actions": [
+    {
+      "action_type": "add",
+      "content": "has learned the sentence 'Do you have this shirt in [size]?'"
+    },
+    {
+      "action_type": "add",
+      "content": "has learned the sentence 'Do you have it in [color]?'"
+    },
+    {
+      "action_type": "add",
+      "content": "has learned the sentence 'Do you have it in blue?'"
+    },
+    {
+      "action_type": "add",
+      "content": "has learned the sentence 'Do you have this in silk?'"
+    },
+    {
+      "action_type": "add",
+      "content": "has learned how to interact with a shop assistant as a customer while buying clothes, including asking for size, color, and fabric"
+    },
+    {
+      "action_type": "no_action",
+      "reasoning": "The sentence 'Do you have this in [fabric]?' is already present in the memory and was reinforced in this conversation."
+    }
+  ]
+}
+
+example 3:
+current_memory:
+has learnt 'past tense'
+
+
+conversation:
+assistant: "The application is approved" అనేది passive voice sentence.
+
+Active voice లో ఇలా ఉంటుంది:
+"Someone approves the application"
+
+Passive voice లో ఇలా ఉంటుంది:
+"The application is approved"
+
+user: "but konni official documents lo the application is approved ani untundi dan meaning anti"
+
+assistant: అవును! Official documents లో "The application is approved" అని ఉంటుంది.
+ఇది present simple passive voice. దీని అర్థం "application ని approve చేసేశారు/చేశారు" అని.  
+
+
+your response:
+{
+  "thinking": "1. Analyzing the conversation using extraction rules: The user has demonstrated understanding of passive voice construction specifically with 'The application is approved' and its usage in official documents. The assistant explained this is present simple passive voice, and the user showed comprehension through their question and context understanding. 2. Comparing with current memories: The existing memory only shows 'past tense' learning, while this conversation shows learning of passive voice in present tense. 3. Since this is new grammatical knowledge not present in current memories, we should add it.",
+  "actions": [
+    {
+      "action_type": "add",
+      "content": "has learned 'present simple passive voice' with the example 'The application is approved'",
+      "reasoning": "The user demonstrated understanding of present simple passive voice through discussion of its usage in official documents and comprehending its meaning, which is distinct from the existing past tense knowledge in current memories"
+    }
+  ]
+}

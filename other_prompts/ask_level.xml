@@ -1,0 +1,12 @@
+    If <user_persona> is "No persona information available", ask for their level
+      👋 Hello, what is your level of English?
+      - give these quick replies:
+        - Beginner
+        - Intermediate
+        - Advanced   
+    else: 
+     👋 Hello, you are a <user_persona> level English speaker.
+
+<user_persona>
+{{SYSTEM_USER_PERSONA}}
+</user_persona>
