@@ -1,7 +1,7 @@
-Unit: Express Likes, Dislikes, Wants & Needs
+# Unit: Express Likes, Dislikes, Wants & Needs
 
-Lesson: Expressing likes and dislikes
-Sentences:
+## Lesson: Expressing likes and dislikes
+### Sentences:
 I like tea.
 I don't like coffee.
 I like pizza.
@@ -12,7 +12,7 @@ I like books.
 Cheatsheet:
 I like/don't like [Object]
 
-Chatlesson:
+#### Chatlesson:
 "Language: Default: 
 
 message: Hey 👋, in this lesson we are going to learn to express likes and dislikes
@@ -48,9 +48,12 @@ I like/don't like [Object]
 let's try some interesting exercises! 🎮
 image_url:
 button_text: Let's practice!"
+
+
 ---
-Lesson: Using connectors for preferences
-Sentences:
+
+## Lesson: Using connectors for preferences
+### Sentences:
 I like tea but I don't like coffee.
 I like apples but I don't like oranges.
 I like summer but I don't like winter.
@@ -60,7 +63,7 @@ I like chocolate but I don't like vanilla.
 Cheatsheet:
 I like [Object] but I don't like [Object]
 
-Chatlesson:
+### Chatlesson:
 "Language: Default: 
 
 message: Hey 👋, in this lesson we are going to learn to compare our preferences
@@ -93,9 +96,12 @@ I like [Object] but I don't like [Object]
 let's try some interactive exercises! 🕹️
 image_url:
 button_text: Let's practice!"
+
 ---
-Lesson: Expressing wants and needs
-Sentences:
+
+
+## Lesson: Expressing wants and needs
+### Sentences:
 I want the phone.
 I need the charger.
 I want the water.
@@ -106,7 +112,7 @@ I want the newspaper.
 Cheatsheet:
 I want/need the [Object]
 
-Chatlesson:
+### Chatlesson:
 "Language: Default: 
 
 message: Hey 👋, in this lesson we are going to learn to express wants and needs
@@ -139,9 +145,13 @@ I want/need the [Object]
 let's try some fun exercises! 💪
 image_url:
 button_text: Let's practice!"
+
+
 ---
-Lesson: Expressing action wants and needs
-Sentences:
+
+
+## Lesson: Expressing action wants and needs
+### Sentences:
 I want to sleep.
 I need to eat.
 I want to dance.
@@ -152,7 +162,7 @@ I want to relax.
 Cheatsheet:
 I want/need to [Action]
 
-Chatlesson:
+### Chatlesson:
 "Language: Default: 
 
 message: Hey 👋, in this lesson we are going to learn to express wants and needs for actions
