@@ -1,7 +1,7 @@
-Unit: Shop in English
+# Unit: Shop in English
 
-Lesson: Making polite requests
-Sentences:
+## Lesson: Making polite requests
+### Sentences:
 Can I have water, please?
 Can I have coffee, please?
 Can I have tea, please?
@@ -10,7 +10,7 @@ Can I have milk, please?
 Cheatsheet:
 Can I have [Object], please?
 
-Chatlesson:
+### Chatlesson:
 "Language: Default: 
 
 message: Hey 👋, in this lesson we are going to learn to make polite requests when shopping
@@ -46,9 +46,13 @@ Can I have [Object], please?
 let's try some shopping exercises! 🛒
 image_url:
 button_text: Let's practice!"
+
+
 ---
-Lesson: Asking with quantity
-Sentences:
+
+
+## Lesson: Asking with quantity
+### Sentences:
 Can I have two oranges, please?
 Can I have three apples, please?
 Can I have five bananas, please?
@@ -58,7 +62,7 @@ Can I have ten pencils, please?
 Cheatsheet:
 Can I have [Number] [Objects], please?
 
-Chatlesson:
+### Chatlesson:
 "Language: Default: 
 
 message: Hey 👋, in this lesson we are going to learn to ask for specific quantities when shopping
@@ -93,9 +97,13 @@ Can I have [Number] [Objects], please?
 let's try some buying multiple items exercises! 🔢
 image_url:
 button_text: Let's practice!"
+
+
 ---
-Lesson: Asking about prices
-Sentences:
+
+
+## Lesson: Asking about prices
+### Sentences:
 How much is this phone?
 How much is this watch?
 How much is this bag?
@@ -104,7 +112,7 @@ How much is this jacket?
 Cheatsheet:
 How much is this [Object]?
 
-Chatlesson:
+### Chatlesson:
 "Language: Default: 
 
 message: Hey 👋, in this lesson we are going to learn to ask about prices when shopping
@@ -139,9 +147,13 @@ How much is this [Object]?
 let's try some price inquiry exercises! 💰
 image_url:
 button_text: Let's practice!"
+
+
 ---
-Lesson: Making payments
-Sentences:
+
+
+## Lesson: Making payments
+### Sentences:
 Can I pay by UPI?
 Can I pay by credit card?
 Can I pay by debit card?
@@ -150,7 +162,7 @@ Can I pay by cheque?
 Cheatsheet:
 Can I pay by [Method]?
 
-Chatlesson:
+### Chatlesson:
 "Language: Default: 
 
 message: Hey 👋, in this lesson we are going to learn to ask about payment methods when shopping
