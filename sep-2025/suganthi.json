@@ -1,0 +1,2409 @@
+{
+  "key": "default",
+  "course": {
+    "sections": [
+      {
+        "title": "Making Polite Requests",
+        "colors": {
+          "primary": "#8BC34A",
+          "secondary": "#AED581",
+          "shadow_color": "#689F38"
+        },
+        "activities": [
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Asking Politely: 'Can you...'",
+            "locked": false,
+            "scenario_id": "30a2159d-32af-4ba1-ad1d-38c5fe091e1f",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "redirect_app_path": {
+              "en": "/speak/scenarios/30a2159d-32af-4ba1-ad1d-38c5fe091e1f"
+            }
+          },
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Polite Requests with 'Could'",
+            "locked": true,
+            "scenario_id": "da148d96-4e74-4c65-9f2e-438e63726d34",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "redirect_app_path": {
+              "en": "/speak/scenarios/da148d96-4e74-4c65-9f2e-438e63726d34"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Practice Making Polite Requests",
+            "locked": true,
+            "scenario_id": "2335ef3b-6d9f-412e-9b1b-ad7a040a0d56",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "redirect_app_path": {
+              "en": "/speak/scenarios/2335ef3b-6d9f-412e-9b1b-ad7a040a0d56"
+            }
+          },
+          {
+            "type": "speak",
+            "stars": 0,
+            "title": "Making Polite Requests: I would",
+            "locked": true,
+            "scenario_id": "9b922780-ca95-4a7f-b320-23c9c2f39725",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "redirect_app_path": {
+              "en": "/speak/scenarios/9b922780-ca95-4a7f-b320-23c9c2f39725"
+            }
+          },
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Let's Talk About Making Polite Requests",
+            "locked": true,
+            "scenario_id": "e9cb5c93-d3c4-4b1f-98cd-c5782a0423b1",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "redirect_app_path": {
+              "en": "/speak/scenarios/e9cb5c93-d3c4-4b1f-98cd-c5782a0423b1"
+            }
+          }
+        ],
+        "banner_url": "https://r2-activity-data.gosupernova.live/system-uploads/home/991ccb5b-ad81-4ffd-973c-4388a72a5501-1.png",
+        "description": "Making Polite Requests",
+        "miss_nova_image": "https://7j8u68796u.ufs.sh/f/6zVkEzwcHEDBgTDaw4dmxVu83iQn5IbfdEcyRMF7NlwOWUrA",
+        "section_subtext": {
+          "bn": "সৌজন্যে অনুরোধ কীভাবে করতে হয় তা শিখুন",
+          "en": "Learn how to politely make requests",
+          "gu": "વिनમ્રતાપૂર્વક વિનંતી કેવી રીતે કરવી તે શીખો",
+          "hi": "सौम्य तरीके से अनुरोध कैसे करें, यह सीखें",
+          "kn": "ವಿನಯಪೂರ್ವಕವಾಗಿ ವಿನಂತಿಗಳನ್ನು ಹೇಗೆ ಮಾಡುವುದು ಎಂದು ಕಲಿಯಿರಿ",
+          "ml": "ആകാരം പ്രദര്‍ശിപ്പിച്ച് എങ്ങനെ അഭ്യര്‍ത്ഥനകള്‍ നടത്താമെന്ന് പഠിക്കുക",
+          "mr": "सौम्यपणे विनंती कशी करावी हे शिका",
+          "ta": "மென்மையான முறையில் வேண்டுதல்களை எவ்வாறு செய்வது என்பதை கற்றுக்கொள்ளுங்கள்",
+          "te": "వినయంగా అభ్యర్థనలు ఎలా చేయాలో నేర్చుకోండి"
+        }
+      },
+      {
+        "title": "Talk about Daily Routine",
+        "colors": {
+          "primary": "#8BC34A",
+          "secondary": "#AED581",
+          "shadow_color": "#689F38"
+        },
+        "activities": [
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Talk About your Daily Routine",
+            "locked": false,
+            "scenario_id": "872b8927-6cd6-4767-beb9-81b742f58980",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "redirect_app_path": {
+              "en": "/speak/scenarios/872b8927-6cd6-4767-beb9-81b742f58980"
+            }
+          },
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Describe Day in Detail",
+            "locked": true,
+            "scenario_id": "c0c65fec-5f19-4be8-9292-63af1cab8bce",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "redirect_app_path": {
+              "en": "/speak/scenarios/c0c65fec-5f19-4be8-9292-63af1cab8bce"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Connecting Your Routine",
+            "locked": true,
+            "scenario_id": "5be36a15-255c-4bc9-886d-a440574d28d1",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "redirect_app_path": {
+              "en": "/speak/scenarios/5be36a15-255c-4bc9-886d-a440574d28d1"
+            }
+          },
+          {
+            "type": "speak",
+            "stars": 0,
+            "title": "Talking About Routine Using I/You/We/They",
+            "locked": true,
+            "scenario_id": "95501af2-4d48-4f21-a916-8ae04f6eef35",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "redirect_app_path": {
+              "en": "/speak/scenarios/95501af2-4d48-4f21-a916-8ae04f6eef35"
+            }
+          },
+          {
+            "type": "speak",
+            "stars": 0,
+            "title": "Simple Present Tense with He/She/It",
+            "locked": true,
+            "scenario_id": "3aec1072-bedb-46a7-a0cc-1c07c502ce8b",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "redirect_app_path": {
+              "en": "/speak/scenarios/3aec1072-bedb-46a7-a0cc-1c07c502ce8b"
+            }
+          },
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Learn about Negative Simple Present Tense",
+            "locked": true,
+            "scenario_id": "c31f111d-029b-43f5-9409-a0411d7d29ad",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "redirect_app_path": {
+              "en": "/speak/scenarios/c31f111d-029b-43f5-9409-a0411d7d29ad"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Practice Negative Simple Present Tense",
+            "locked": true,
+            "scenario_id": "a6c95ab2-1ea3-41f4-9ac8-2f4748ad1812",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "redirect_app_path": {
+              "en": "/speak/scenarios/a6c95ab2-1ea3-41f4-9ac8-2f4748ad1812"
+            }
+          },
+          {
+            "type": "speak",
+            "stars": 0,
+            "title": "Revise Simple Present Tense",
+            "locked": true,
+            "scenario_id": "b002663f-caa2-4776-93ca-49778b12352d",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "redirect_app_path": {
+              "en": "/speak/scenarios/b002663f-caa2-4776-93ca-49778b12352d"
+            }
+          }
+        ],
+        "banner_url": "https://r2-activity-data.gosupernova.live/system-uploads/home/991ccb5b-ad81-4ffd-973c-4388a72a5501-1.png",
+        "description": "Making Polite Requests",
+        "miss_nova_image": "https://7j8u68796u.ufs.sh/f/6zVkEzwcHEDBgTDaw4dmxVu83iQn5IbfdEcyRMF7NlwOWUrA",
+        "section_subtext": {
+          "bn": "আপনার দৈনিক রুটিন নিয়ে কথা বলতে সিম্পল প্রেসেন্ট টেন্স কিভাবে ব্যবহার করতে হয় তা শিখুন",
+          "en": "Learn how to use the simple present tense to talk about your daily routine",
+          "gu": "તમારા દૈનિક રૂટીન વિશે વાત કરવા માટે સરળ વર્તમાન કાળ કેવી રીતે ઉપયોગ કરવો તે શીખો",
+          "hi": "अपने दैनिक रूटीन के बारे में बात करने के लिए सरल वर्तमान काल का उपयोग कैसे करें, यह सीखें",
+          "kn": "ನೀವು ನಿಮ್ಮ ದೈನಂದಿನ ಜೀವನವನ್ನು ಕುರಿತು ಮಾತನಾಡಲು ಸರಳ ಪ್ರસ્તુತ ಕಾಲವನ್ನು ಹೇಗೆ ಬಳಸುವುದು ಎಂದು ಕಲಿಯಿರಿ",
+          "ml": "നിങ്ങളുടെ ദൈനംദിന ശൃംഖലയെക്കുറിച്ച് പറയാൻ എങ്ങനെ സിംപിള്‍ പ്രെസന്റ് ടെന്‍സ് ഉപയോഗിക്കാമെന്ന് പഠിക്കുക",
+          "mr": "तुमच्या दैनंदिन दिनचर्या बद्दल बोलण्यासाठी साधा वर्तमान काळ कसा वापरावा हे शिका",
+          "ta": "உங்கள் தினசரி வழக்கைப் பற்றி பேசுவதற்காக எளிதான நிகழ்காலத்தை எவ்வாறு பயன்படுத்துவது என்பதை கற்றுக்கொள்ளுங்கள்",
+          "te": "మీ రోజు రోజూ చేసే పనుల గురించి మాట్లాడటానికి సింపుల్ ప్రెసెంట్ టెన్స్‌ని ఎలా ఉపయోగించాలో నేర్చుకోండి"
+        }
+      },
+      {
+        "title": "Talk About What's Happening Now",
+        "colors": {
+          "primary": "#8BC34A",
+          "secondary": "#AED581",
+          "shadow_color": "#689F38"
+        },
+        "activities": [
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Present Continuous Tense!",
+            "locked": false,
+            "scenario_id": "7c4ef95a-141d-4ca8-b2c3-704dd18e026c",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/7c4ef95a-141d-4ca8-b2c3-704dd18e026c"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Talking About What I Am Doing Now",
+            "locked": true,
+            "scenario_id": "62d66c9f-918f-4251-857c-9f2362fceabe",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/62d66c9f-918f-4251-857c-9f2362fceabe"
+            }
+          },
+          {
+            "type": "speak",
+            "stars": 0,
+            "title": "Present Continuous Tense with He/She/It",
+            "locked": true,
+            "scenario_id": "efd02345-9f2e-4973-b103-62bdfb10e7e2",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/efd02345-9f2e-4973-b103-62bdfb10e7e2"
+            }
+          },
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Talking About Actions Happening Now Using \"He/She/It",
+            "locked": true,
+            "scenario_id": "b041b123-492e-49e3-a9ee-041ed65c90d3",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/b041b123-492e-49e3-a9ee-041ed65c90d3"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Present Continuous Tense using You, We, or They",
+            "locked": true,
+            "scenario_id": "ceae85fa-392a-4e07-8b4c-59bc6c99a5cd",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/ceae85fa-392a-4e07-8b4c-59bc6c99a5cd"
+            }
+          },
+          {
+            "type": "speak",
+            "stars": 0,
+            "title": "Talking About Actions Happening Now Using You/We/They",
+            "locked": true,
+            "scenario_id": "237231aa-2688-4878-ad03-de95caa1113c",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/237231aa-2688-4878-ad03-de95caa1113c"
+            }
+          },
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Learn about Present continuous negative tense!",
+            "locked": true,
+            "scenario_id": "f594a0f6-6535-4895-9777-759c327fc9ef",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/f594a0f6-6535-4895-9777-759c327fc9ef"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Present Continuous Tense Using \"Not”",
+            "locked": true,
+            "scenario_id": "dbd4f233-527d-4099-9623-1cce59622615",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/dbd4f233-527d-4099-9623-1cce59622615"
+            }
+          },
+          {
+            "type": "speak",
+            "stars": 0,
+            "title": "Revise Present Continuous Tense",
+            "locked": true,
+            "scenario_id": "10f1b06c-cc75-40bd-9557-ad557afdfbdb",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/10f1b06c-cc75-40bd-9557-ad557afdfbdb"
+            }
+          },
+          {
+            "type": "speak",
+            "stars": 0,
+            "title": "Conversation Practice: Talk About What’s Happening Now",
+            "locked": true,
+            "scenario_id": "44737006-6ea2-404c-aae5-591037c9dd2f",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/44737006-6ea2-404c-aae5-591037c9dd2f"
+            }
+          }
+        ],
+        "banner_url": "https://r2-activity-data.gosupernova.live/system-uploads/home/991ccb5b-ad81-4ffd-973c-4388a72a5501-1.png",
+        "description": "Learn to talk about what is happening now!",
+        "miss_nova_image": "https://7j8u68796u.ufs.sh/f/6zVkEzwcHEDBgTDaw4dmxVu83iQn5IbfdEcyRMF7NlwOWUrA",
+        "section_subtext": {
+          "bn": "বলুন এখন কি হচ্ছে",
+          "en": "Talk About What's Happening Now",
+          "gu": "હવે શું થઈ રહ્યું છે તેના વિશે વાત કરો",
+          "hi": "बताएं कि अभी क्या हो रहा है",
+          "kn": "ಈಗ ಏನು ನಡೆಯುತ್ತಿದೆ ಎಂಬುದರ ಬಗ್ಗೆ ಮಾತನಾಡಿ",
+          "ml": "ഇപ്പോൾ എന്താണ് സംഭവിക്കുന്നതെന്ന് സംസാരിക്കുക",
+          "mr": "आता काय चालू आहे त्याबद्दल बोला",
+          "ta": "இப்போது என்ன நடக்கிறது என்பதைப் பற்றி பேசுங்கள்",
+          "te": "ఇప్పుడు ఏం జరుగుతుందో చెప్పండి"
+        }
+      },
+      {
+        "title": "Talking About Past Activities",
+        "colors": {
+          "primary": "#8BC34A",
+          "secondary": "#AED581",
+          "shadow_color": "#689F38"
+        },
+        "activities": [
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Past continuous tense!",
+            "locked": false,
+            "scenario_id": "6e323379-08d2-4850-950b-17a5e8bc4c98",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/6e323379-08d2-4850-950b-17a5e8bc4c98"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Let's Talk: What Was I Doing?",
+            "locked": true,
+            "scenario_id": "6992a0fc-6273-451b-9b9c-d36fd462cf66",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/6992a0fc-6273-451b-9b9c-d36fd462cf66"
+            }
+          },
+          {
+            "type": "speak",
+            "stars": 0,
+            "title": "Past Continuous Tense with we, you, they!",
+            "locked": true,
+            "scenario_id": "cdfa305d-0479-4209-a23e-ed3c904558c4",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/cdfa305d-0479-4209-a23e-ed3c904558c4"
+            }
+          },
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Let's Talk: What Were We Doing?",
+            "locked": true,
+            "scenario_id": "8a2046be-1372-4706-9478-d7b7aa597444",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/8a2046be-1372-4706-9478-d7b7aa597444"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Learn about Past continuous negative tense!",
+            "locked": true,
+            "scenario_id": "25b15e2b-5bee-458a-a2f2-d0cad80e9482",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/25b15e2b-5bee-458a-a2f2-d0cad80e9482"
+            }
+          },
+          {
+            "type": "speak",
+            "stars": 0,
+            "title": "Practice Negative Past Continuous Tense",
+            "locked": true,
+            "scenario_id": "0e0fd276-04d0-4b7c-ac9b-f063c18dbb78",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/0e0fd276-04d0-4b7c-ac9b-f063c18dbb78"
+            }
+          },
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Revise Past Continuous Tense",
+            "locked": true,
+            "scenario_id": "a22f4b50-a1e6-4c73-ad8a-417232a8c64f",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/a22f4b50-a1e6-4c73-ad8a-417232a8c64f"
+            }
+          }
+        ],
+        "banner_url": "https://r2-activity-data.gosupernova.live/system-uploads/home/991ccb5b-ad81-4ffd-973c-4388a72a5501-1.png",
+        "description": "Learn to talk about your past activies!",
+        "miss_nova_image": "https://7j8u68796u.ufs.sh/f/6zVkEzwcHEDBgTDaw4dmxVu83iQn5IbfdEcyRMF7NlwOWUrA",
+        "section_subtext": {
+          "bn": "অতীতের কাজকর্ম নিয়ে কথা বলা",
+          "en": "Talking About Past Activities",
+          "gu": "ભૂતકાળની પ્રવૃત્તિઓ વિશે વાત કરવી",
+          "hi": "बीती हुई गतिविधियों के बारे में बात करना",
+          "kn": "ಹಿಂದಿನ ಚಟುವಟಿಕೆಗಳ ಬಗ್ಗೆ ಮಾತನಾಡುವುದು",
+          "ml": "കഴിഞ്ഞ പ്രവർത്തനങ്ങളെക്കുറിച്ച് സംസാരിക്കുക",
+          "mr": "भूतकाळातील क्रियाकलापांबद्दल बोलणे",
+          "ta": "கடந்த கால செயல்பாடுகளைப் பற்றி பேசுதல்",
+          "te": "గతంలో చేసిన పనుల గురించి మాట్లాడటం"
+        }
+      },
+      {
+        "title": "Making Future Plans",
+        "colors": {
+          "primary": "#8BC34A",
+          "secondary": "#AED581",
+          "shadow_color": "#689F38"
+        },
+        "activities": [
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Learn about future simple tense!",
+            "locked": false,
+            "scenario_id": "7162f86a-cd7a-40e6-bbda-9e63d761353e",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/7162f86a-cd7a-40e6-bbda-9e63d761353e"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Talking About Tomorrow & Future",
+            "locked": true,
+            "scenario_id": "5fce7593-134e-47cd-82f4-77639773abf2",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/5fce7593-134e-47cd-82f4-77639773abf2"
+            }
+          },
+          {
+            "type": "speak",
+            "stars": 0,
+            "title": "Learn about future simple negative tense!",
+            "locked": true,
+            "scenario_id": "0e72c4ec-d8e5-4b60-9ef7-15bdccc3a817",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/0e72c4ec-d8e5-4b60-9ef7-15bdccc3a817"
+            }
+          },
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Future Tense Using \"Will Not”",
+            "locked": true,
+            "scenario_id": "0a57af71-6c08-44b1-9492-3f6c4d089353",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/0a57af71-6c08-44b1-9492-3f6c4d089353"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Revise Future Tense",
+            "locked": true,
+            "scenario_id": "2a18a45f-09b9-49a7-bbeb-c59d6fa8c23c",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/2a18a45f-09b9-49a7-bbeb-c59d6fa8c23c"
+            }
+          }
+        ],
+        "banner_url": "https://r2-activity-data.gosupernova.live/system-uploads/home/991ccb5b-ad81-4ffd-973c-4388a72a5501-1.png",
+        "description": "Learn to express your future plans",
+        "miss_nova_image": "https://7j8u68796u.ufs.sh/f/6zVkEzwcHEDBgTDaw4dmxVu83iQn5IbfdEcyRMF7NlwOWUrA",
+        "section_subtext": {
+          "bn": "ভবিষ্যতের প্ল্যান করা শেখো",
+          "en": "Learn to make future plans",
+          "gu": "future ની planning કરતા શીખો",
+          "hi": "future plans के बारे में बताना सीखें",
+          "kn": "future plans ಮಾಡೋದು ಕಲಿಯೋಣ",
+          "ml": "future plans ഉണ്ടാക്കാൻ പഠിക്കാം",
+          "mr": "future plans करायला शिका",
+          "ta": "future plans பண்ண பழகலாம்",
+          "te": "future plans చేయడం నేర్చుకుందాం"
+        }
+      },
+      {
+        "title": "Describing Future Activities",
+        "colors": {
+          "primary": "#8BC34A",
+          "secondary": "#AED581",
+          "shadow_color": "#689F38"
+        },
+        "activities": [
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Learn about future continuous tense!",
+            "locked": false,
+            "scenario_id": "faec0de0-f83c-41d1-a597-d37649a03ab9",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/faec0de0-f83c-41d1-a597-d37649a03ab9"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Talking About Future Plans",
+            "locked": true,
+            "scenario_id": "e5f3d75d-fb98-44d4-8443-81fdeac8c603",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/e5f3d75d-fb98-44d4-8443-81fdeac8c603"
+            }
+          },
+          {
+            "type": "speak",
+            "stars": 0,
+            "title": "Learn about future continuous negative tense!",
+            "locked": true,
+            "scenario_id": "ba19537f-6a36-4a11-963c-713235d90441",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/ba19537f-6a36-4a11-963c-713235d90441"
+            }
+          },
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Future Continuous Tense Using \"Will Not”",
+            "locked": true,
+            "scenario_id": "d87f42d6-a428-40a1-855e-1cbb3f9fc7cd",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/d87f42d6-a428-40a1-855e-1cbb3f9fc7cd"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Revise Future Continuous Tense",
+            "locked": true,
+            "scenario_id": "1535f017-de99-45a0-9f88-725555b5b59f",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/1535f017-de99-45a0-9f88-725555b5b59f"
+            }
+          }
+        ],
+        "banner_url": "https://r2-activity-data.gosupernova.live/system-uploads/home/991ccb5b-ad81-4ffd-973c-4388a72a5501-1.png",
+        "description": "Learn to describe future actions",
+        "miss_nova_image": "https://7j8u68796u.ufs.sh/f/6zVkEzwcHEDBgTDaw4dmxVu83iQn5IbfdEcyRMF7NlwOWUrA",
+        "section_subtext": {
+          "bn": "ভবিষ্যতে কি করবে সেটা বলা শেখো",
+          "en": "Learn to describe future actions",
+          "gu": "future માં શું કરવાના છો એ કહેતા શીખો",
+          "hi": "future actions के बारे में बताना सीखें",
+          "kn": "future actions ಬಗ್ಗೆ ಹೇಳೋದು ಕಲಿಯೋಣ",
+          "ml": "future actions നെ കുറിച്ച് പറയാൻ പഠിക്കാം",
+          "mr": "future actions बद्दल सांगायला शिका",
+          "ta": "future actions பத்தி சொல்ல பழகலாம்",
+          "te": "future actions గురించి చెప్పడం నేర్చుకుందాం"
+        }
+      },
+      {
+        "title": "Describe Things and Express Opinion",
+        "colors": {
+          "primary": "#8BC34A",
+          "secondary": "#AED581",
+          "shadow_color": "#689F38"
+        },
+        "activities": [
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Describing Things ",
+            "locked": false,
+            "scenario_id": "ac12add1-236f-4982-89e6-b94805afde73",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/ac12add1-236f-4982-89e6-b94805afde73"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Using Adjectives to Describe Things",
+            "locked": true,
+            "scenario_id": "0e326791-9537-48c3-bf93-9ef5265aac69",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/0e326791-9537-48c3-bf93-9ef5265aac69"
+            }
+          },
+          {
+            "type": "speak",
+            "stars": 0,
+            "title": " Expressing Opinions with Adjectives ",
+            "locked": true,
+            "scenario_id": "97612d9d-d432-49a6-97e9-515da62014cf",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/97612d9d-d432-49a6-97e9-515da62014cf"
+            }
+          },
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Sharing Your Opinions with Adjectives",
+            "locked": true,
+            "scenario_id": "e202cf23-1339-4ddc-baf9-41ec4266d278",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/e202cf23-1339-4ddc-baf9-41ec4266d278"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Expressing Likes with Adjectives ",
+            "locked": true,
+            "scenario_id": "103ab8d5-7520-434b-973a-e731987ee8f6",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/103ab8d5-7520-434b-973a-e731987ee8f6"
+            }
+          },
+          {
+            "type": "speak",
+            "stars": 0,
+            "title": "Talking About What You Like with Adjectives",
+            "locked": true,
+            "scenario_id": "90b72285-6354-4a27-8d30-90634f7e316b",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/90b72285-6354-4a27-8d30-90634f7e316b"
+            }
+          },
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Revise Adjectives ",
+            "locked": true,
+            "scenario_id": "f22b68ce-b9f7-46a8-b454-cb6ba5e6127f",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/f22b68ce-b9f7-46a8-b454-cb6ba5e6127f"
+            }
+          }
+        ],
+        "banner_url": "https://r2-activity-data.gosupernova.live/system-uploads/home/991ccb5b-ad81-4ffd-973c-4388a72a5501-1.png",
+        "description": "Learn to use adjectives",
+        "miss_nova_image": "https://7j8u68796u.ufs.sh/f/6zVkEzwcHEDBgTDaw4dmxVu83iQn5IbfdEcyRMF7NlwOWUrA",
+        "section_subtext": {
+          "bn": "Places আর things describe করতে শিখি",
+          "en": "Learn to describe places and things",
+          "gu": "Places અને things describe કરતા શીખીએ",
+          "hi": "Places और things describe करना सीखें",
+          "kn": "Places ಮತ್ತು things describe ಮಾಡೋದು ಕಲಿಯೋಣ",
+          "ml": "Places ഉം things ഉം describe ചെയ്യാൻ പഠിക്കാം",
+          "mr": "Places आणि things describe करायला शिकूया",
+          "ta": "Places மற்றும் thingsஐ describe பண்ற கத்துக்கலாம்",
+          "te": "Places మరియు things describe చేయడం నేర్చుకుందాం"
+        }
+      },
+      {
+        "title": "Describing Where Things Are",
+        "colors": {
+          "primary": "#8BC34A",
+          "secondary": "#AED581",
+          "shadow_color": "#689F38"
+        },
+        "activities": [
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Describing Where Things Are",
+            "locked": false,
+            "scenario_id": "69a0ceaa-fe19-4f08-a420-1d3132f26a60",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/69a0ceaa-fe19-4f08-a420-1d3132f26a60"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Describing Using Behind/Under",
+            "locked": true,
+            "scenario_id": "2048daa6-1b54-438d-b521-6e33cda0a702",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/2048daa6-1b54-438d-b521-6e33cda0a702"
+            }
+          },
+          {
+            "type": "speak",
+            "stars": 0,
+            "title": "Revise Basic Positions",
+            "locked": true,
+            "scenario_id": "4c0f0a6c-6cea-40af-a9ae-e11a4245b4c5",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/4c0f0a6c-6cea-40af-a9ae-e11a4245b4c5"
+            }
+          },
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Talk about locations using 'There' for one object",
+            "locked": true,
+            "scenario_id": "9e699151-bfdd-42ac-aec7-078db0476894",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/9e699151-bfdd-42ac-aec7-078db0476894"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Talk about locations using 'There' for multiple objects",
+            "locked": true,
+            "scenario_id": "86c3e5a1-43a1-4fc1-8f37-b46361c258cf",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/86c3e5a1-43a1-4fc1-8f37-b46361c258cf"
+            }
+          },
+          {
+            "type": "speak",
+            "stars": 0,
+            "title": "Revise talking about locations with 'There’",
+            "locked": true,
+            "scenario_id": "2a538d03-8245-4ffd-aaeb-cb2e4cdff645",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/2a538d03-8245-4ffd-aaeb-cb2e4cdff645"
+            }
+          }
+        ],
+        "banner_url": "https://r2-activity-data.gosupernova.live/system-uploads/home/991ccb5b-ad81-4ffd-973c-4388a72a5501-1.png",
+        "description": "Learn to describe where things are",
+        "miss_nova_image": "https://7j8u68796u.ufs.sh/f/6zVkEzwcHEDBgTDaw4dmxVu83iQn5IbfdEcyRMF7NlwOWUrA",
+        "section_subtext": {
+          "bn": "জিনিসপত্র কোথায় আছে তা বলতে শেখো",
+          "en": "Describe Where things Are",
+          "gu": "વસ્તુઓ ક્યાં છે એ બતાવતા શીખો",
+          "hi": "चीज़ें कहाँ रखी हैं वो बताना सीखें",
+          "kn": "things ಎಲ್ಲಿವೆ ಅದನ್ನ describe ಮಾಡೋದು ಕಲಿಯೋಣ",
+          "ml": "സാധനങ്ങൾ എവിടെയാണ് എന്ന് പറയാൻ പഠിക്കാം",
+          "mr": "वस्तू कुठे आहेत ते सांगायला शिका",
+          "ta": "சாமான்கள் எங்க இருக்குன்னு சொல்ல கத்துக்கலாம்",
+          "te": "వస్తువులు ఎక్కడ ఉన్నాయో చెప్పడం నేర్చుకుందాం"
+        }
+      },
+      {
+        "title": "Demonstrative pronouns",
+        "colors": {
+          "primary": "#8BC34A",
+          "secondary": "#AED581",
+          "shadow_color": "#689F38"
+        },
+        "activities": [
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Talk about 1 thing that is nearby",
+            "locked": false,
+            "scenario_id": "ecea770a-2170-48ff-91bd-53522b753ebc",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/ecea770a-2170-48ff-91bd-53522b753ebc"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Talk about 1 thing that is far away",
+            "locked": true,
+            "scenario_id": "442fbd0e-ffc7-48f9-8afc-0a39c79c0129",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/442fbd0e-ffc7-48f9-8afc-0a39c79c0129"
+            }
+          },
+          {
+            "type": "speak",
+            "stars": 0,
+            "title": "Practice Singular Demonstrative Pronouns",
+            "locked": true,
+            "scenario_id": "42cf3fbf-decc-4ca1-8bab-34d2f18d9ea3",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/42cf3fbf-decc-4ca1-8bab-34d2f18d9ea3"
+            }
+          },
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Talk about many things that are nearby",
+            "locked": true,
+            "scenario_id": "48f99f25-604a-4172-9d21-96b8859b8d50",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/48f99f25-604a-4172-9d21-96b8859b8d50"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Talk about many things that are far away",
+            "locked": true,
+            "scenario_id": "e7b5dfb8-3d06-405e-9072-f45f639b61bb",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/e7b5dfb8-3d06-405e-9072-f45f639b61bb"
+            }
+          },
+          {
+            "type": "speak",
+            "stars": 0,
+            "title": "Practice Plural Demonstrative Pronouns",
+            "locked": true,
+            "scenario_id": "3963a89c-78c2-4d01-9c03-6550da500e8e",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/3963a89c-78c2-4d01-9c03-6550da500e8e"
+            }
+          },
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Practice Demonstrative Pronouns",
+            "locked": true,
+            "scenario_id": "e5b07a0f-e33f-491c-8d6b-dedea5c2ef0c",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/e5b07a0f-e33f-491c-8d6b-dedea5c2ef0c"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Asking about what 1 thing is",
+            "locked": true,
+            "scenario_id": "b990ead4-7c8f-4401-843e-95f855f3e7b9",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/b990ead4-7c8f-4401-843e-95f855f3e7b9"
+            }
+          },
+          {
+            "type": "speak",
+            "stars": 0,
+            "title": "Asking about what many things are",
+            "locked": true,
+            "scenario_id": "a1de9d1c-ea80-48cf-a318-09919d07af10",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/a1de9d1c-ea80-48cf-a318-09919d07af10"
+            }
+          },
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Practice Asking Questions About Things",
+            "locked": true,
+            "scenario_id": "abda19ea-ef65-40a9-b85f-21d395193d4f",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/abda19ea-ef65-40a9-b85f-21d395193d4f"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Practice All Demonstrative Pronouns",
+            "locked": true,
+            "scenario_id": "18ec43aa-555e-468c-ba58-a4dccac1faa3",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/18ec43aa-555e-468c-ba58-a4dccac1faa3"
+            }
+          }
+        ],
+        "banner_url": "https://r2-activity-data.gosupernova.live/system-uploads/home/991ccb5b-ad81-4ffd-973c-4388a72a5501-1.png",
+        "description": "Learn about demonstrative pronouns.",
+        "miss_nova_image": "https://7j8u68796u.ufs.sh/f/6zVkEzwcHEDBgTDaw4dmxVu83iQn5IbfdEcyRMF7NlwOWUrA",
+        "section_subtext": {
+          "bn": "সব Demonstrative Pronouns এর Practice করুন",
+          "en": "Practice All Demonstrative Pronouns",
+          "gu": "બધા Demonstrative Pronouns નો Practice કરો",
+          "hi": "सभी Demonstrative Pronouns का Practice करें",
+          "kn": "ಎಲ್ಲಾ Demonstrative Pronouns ಅನ್ನು Practice ಮಾಡಿ",
+          "ml": "എല്ലാ Demonstrative Pronouns ഉം Practice ചെയ്യുക",
+          "mr": "सर्व Demonstrative Pronouns चा Practice करা",
+          "ta": "எல்லா Demonstrative Pronouns அ practice பண்ணுங்க",
+          "te": "Practice All Demonstrative Pronouns"
+        }
+      },
+      {
+        "title": "Basic Connecting Words",
+        "colors": {
+          "primary": "#8BC34A",
+          "secondary": "#AED581",
+          "shadow_color": "#689F38"
+        },
+        "activities": [
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Using 'And' to Connect Things",
+            "locked": false,
+            "scenario_id": "0f3aae2c-044d-461b-9628-778819d7836d",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/0f3aae2c-044d-461b-9628-778819d7836d"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Using 'And' to Connect Actions",
+            "locked": true,
+            "scenario_id": "9ada4d3c-2982-4619-adda-128285f61955",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/9ada4d3c-2982-4619-adda-128285f61955"
+            }
+          },
+          {
+            "type": "speak",
+            "stars": 0,
+            "title": "Practice 'And'",
+            "locked": true,
+            "scenario_id": "567c4adc-cede-4450-b807-6869cdc3e601",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/567c4adc-cede-4450-b807-6869cdc3e601"
+            }
+          },
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Using 'But' to Express Ideas",
+            "locked": true,
+            "scenario_id": "6d907b13-10db-4346-b1d2-2fab87a2f333",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/6d907b13-10db-4346-b1d2-2fab87a2f333"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Practice 'But'",
+            "locked": true,
+            "scenario_id": "f33568c3-afc0-424d-b439-ebb3d827d780",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/f33568c3-afc0-424d-b439-ebb3d827d780"
+            }
+          },
+          {
+            "type": "speak",
+            "stars": 0,
+            "title": "Practice 'And' & 'But'",
+            "locked": true,
+            "scenario_id": "b4e2faea-359f-483f-8142-217fb9d192ef",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/b4e2faea-359f-483f-8142-217fb9d192ef"
+            }
+          },
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Using 'Or' to offer choices",
+            "locked": true,
+            "scenario_id": "51ada9b9-de1b-48f6-87e7-31cfa99fc739",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/51ada9b9-de1b-48f6-87e7-31cfa99fc739"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Practice 'Or'",
+            "locked": true,
+            "scenario_id": "b53b2003-3186-4762-9c58-b5eb5a330edc",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/b53b2003-3186-4762-9c58-b5eb5a330edc"
+            }
+          },
+          {
+            "type": "speak",
+            "stars": 0,
+            "title": "Using 'Because' to give reasons",
+            "locked": true,
+            "scenario_id": "b3369340-0840-4d01-9a6b-df3aa80625d7",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/b3369340-0840-4d01-9a6b-df3aa80625d7"
+            }
+          },
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Practice 'Because'",
+            "locked": true,
+            "scenario_id": "e2f6cc44-3d3f-423a-b3fb-911796a59b58",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/e2f6cc44-3d3f-423a-b3fb-911796a59b58"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Practice 'Because' & 'Or'",
+            "locked": true,
+            "scenario_id": "b3c90168-fcee-437e-89c2-871c9b0fd902",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/b3c90168-fcee-437e-89c2-871c9b0fd902"
+            }
+          },
+          {
+            "type": "speak",
+            "stars": 0,
+            "title": "Practice Basic Connecting Words",
+            "locked": true,
+            "scenario_id": "6b08f37d-3b12-4b5c-89e0-cd6d6e5c3834",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/6b08f37d-3b12-4b5c-89e0-cd6d6e5c3834"
+            }
+          }
+        ],
+        "banner_url": "https://r2-activity-data.gosupernova.live/system-uploads/home/991ccb5b-ad81-4ffd-973c-4388a72a5501-1.png",
+        "description": "Learn connecting words to join two sentences.",
+        "miss_nova_image": "https://7j8u68796u.ufs.sh/f/6zVkEzwcHEDBgTDaw4dmxVu83iQn5IbfdEcyRMF7NlwOWUrA",
+        "section_subtext": {
+          "bn": "আপনার বাক্যগুলি সংযুক্ত করতে সাহায্যকারী শব্দগুলি শিখুন",
+          "en": "Learn words that will help you connect your sentences",
+          "gu": "તમારા વાક્યોને જોડવામાં મદદરૂપ શબ્દો શીખો",
+          "hi": "आपके वाक्यों को जोड़ने में मदद करने वाले शब्द सीखें",
+          "kn": "ನಿಮ್ಮ ವಾಕ್ಯಗಳನ್ನು ಸಂಪರ್ಕಿಸಲು ಸಹಾಯ ಮಾಡುವ ಪದಗಳನ್ನು ಕಲಿಯಿರಿ",
+          "ml": "നിങ്ങളുടെ വാക്യങ്ങൾ ബന്ധിപ്പിക്കാൻ സഹായിക്കുന്ന വാക്കുകൾ പഠിക്കുക",
+          "mr": "तुमचे वाक्य जोडण्यात मदत करणारे शब्द शिका",
+          "ta": "உங்கள் வாக்கியங்களை இணைக்க உதவும் வார்த்தைகளை கற்றுக்கொள்ளுங்கள்",
+          "te": "మీ వాక్యాలను కలపడానికి సహాయపడే పదాలు నేర్చుకో"
+        }
+      },
+      {
+        "title": "Shopping Basics",
+        "colors": {
+          "primary": "#8BC34A",
+          "secondary": "#AED581",
+          "shadow_color": "#689F38"
+        },
+        "activities": [
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Learn to ask about prices!",
+            "locked": false,
+            "scenario_id": "8ce74486-aa1b-4ea7-9e6a-d310f2d164fc",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/8ce74486-aa1b-4ea7-9e6a-d310f2d164fc"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Learn to ask about availability!",
+            "locked": true,
+            "scenario_id": "5f7395b3-0583-48d9-b102-1722d8e40d46",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/5f7395b3-0583-48d9-b102-1722d8e40d46"
+            }
+          },
+          {
+            "type": "speak",
+            "stars": 0,
+            "title": "Practice asking about price and availability!",
+            "locked": true,
+            "scenario_id": "767da2bf-d1ab-4ef0-8b2d-8c3654c0d8a5",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/767da2bf-d1ab-4ef0-8b2d-8c3654c0d8a5"
+            }
+          },
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Learn to ask where items are!",
+            "locked": true,
+            "scenario_id": "d4fff3ac-1d58-4a5c-994b-f06fb1b496d9",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/d4fff3ac-1d58-4a5c-994b-f06fb1b496d9"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Practice asking about location of items!",
+            "locked": true,
+            "scenario_id": "356f4f80-7791-4972-806a-d067ba118478",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/356f4f80-7791-4972-806a-d067ba118478"
+            }
+          },
+          {
+            "type": "speak",
+            "stars": 0,
+            "title": "Learn to ask for what you want!",
+            "locked": true,
+            "scenario_id": "53933583-fedb-41d1-a2bd-8813013ceaec",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/53933583-fedb-41d1-a2bd-8813013ceaec"
+            }
+          },
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Practice asking for what you want!",
+            "locked": true,
+            "scenario_id": "4e355b94-df81-471c-926b-8cf2dd246e2e",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/4e355b94-df81-471c-926b-8cf2dd246e2e"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Learn to ask about payment methods!",
+            "locked": true,
+            "scenario_id": "4ce88321-ec35-40ce-acd6-3a85ce8408f4",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/4ce88321-ec35-40ce-acd6-3a85ce8408f4"
+            }
+          }
+        ],
+        "banner_url": "https://r2-activity-data.gosupernova.live/system-uploads/home/991ccb5b-ad81-4ffd-973c-4388a72a5501-1.png",
+        "description": "Learn to ask questions while shopping",
+        "miss_nova_image": "https://7j8u68796u.ufs.sh/f/6zVkEzwcHEDBgTDaw4dmxVu83iQn5IbfdEcyRMF7NlwOWUrA",
+        "section_subtext": {
+          "bn": "কেনাকাটার সময় প্রশ্ন কীভাবে করতে হয় তা শিখুন",
+          "en": "Learn to ask questions while shopping",
+          "gu": "શોપિંગ કરતી વખતે પ્રશ્નો કેવી રીતે પુછવા તે શીખો",
+          "hi": "खरीदारी करते समय सवाल कैसे पूछें यह सीखें",
+          "kn": "ಶಾಪಿಂಗ್ ಮಾಡುವಾಗ ಪ್ರಶ್ನೆಗಳು ಹೇಗೆ ಕೇಳಬೇಕು ಎಂದು ಕಲಿಯಿರಿ",
+          "ml": "ഷോപ്പിംഗ് ചെയ്യുമ്പോൾ ചോദ്യങ്ങൾ എങ്ങനെ ചോദിക്കാമെന്ന് പഠിക്കുക",
+          "mr": "खरेदी करत असताना प्रश्न कसे विचारायचे हे शिका",
+          "ta": "கணக்குகளை வாங்கும் போது கேள்விகள் எவ்வாறு கேட்க வேண்டும் என்பதை கற்றுக்கொள்ளுங்கள்",
+          "te": "షాపింగ్ చేస్తున్నప్పుడు ప్రశ్నలు ఎలా అడగాలో నేర్చుకోండి"
+        }
+      },
+      {
+        "title": "Asking For and Giving Advice",
+        "colors": {
+          "primary": "#8BC34A",
+          "secondary": "#AED581",
+          "shadow_color": "#689F38"
+        },
+        "activities": [
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Giving Advice with 'Should'",
+            "locked": false,
+            "scenario_id": "b28b3718-7a03-4230-933b-fc4c08762d7f",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/b28b3718-7a03-4230-933b-fc4c08762d7f"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Practice Should",
+            "locked": true,
+            "scenario_id": "0622157b-5a3c-45eb-a4d5-b0890d8bbafd",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/0622157b-5a3c-45eb-a4d5-b0890d8bbafd"
+            }
+          },
+          {
+            "type": "speak",
+            "stars": 0,
+            "title": "Giving Advice with Shouldn't",
+            "locked": true,
+            "scenario_id": "a354ac6b-7528-4c69-90ca-1e26e3125ccc",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/a354ac6b-7528-4c69-90ca-1e26e3125ccc"
+            }
+          },
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Practice Shouldn't",
+            "locked": true,
+            "scenario_id": "fcadf069-64da-4293-9ade-5dcb79b30414",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/fcadf069-64da-4293-9ade-5dcb79b30414"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Practice Should & Shouldn't",
+            "locked": true,
+            "scenario_id": "8bcf23ae-6400-468c-8377-7ebb4ef42670",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/8bcf23ae-6400-468c-8377-7ebb4ef42670"
+            }
+          },
+          {
+            "type": "speak",
+            "stars": 0,
+            "title": "Asking for Advice",
+            "locked": true,
+            "scenario_id": "b557f12b-0daa-43f5-853a-beae28381ec8",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/b557f12b-0daa-43f5-853a-beae28381ec8"
+            }
+          },
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Practice Asking for Advice",
+            "locked": true,
+            "scenario_id": "ac03448d-7913-4015-8293-d3f3ba247e85",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/ac03448d-7913-4015-8293-d3f3ba247e85"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Recap Asking and Giving Advice",
+            "locked": true,
+            "scenario_id": "1d013652-1d01-4c56-9d9a-1b01bade0fea",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/1d013652-1d01-4c56-9d9a-1b01bade0fea"
+            }
+          }
+        ],
+        "banner_url": "https://r2-activity-data.gosupernova.live/system-uploads/home/991ccb5b-ad81-4ffd-973c-4388a72a5501-1.png",
+        "description": "Learrn how to ask and give advice",
+        "miss_nova_image": "https://7j8u68796u.ufs.sh/f/6zVkEzwcHEDBgTDaw4dmxVu83iQn5IbfdEcyRMF7NlwOWUrA",
+        "section_subtext": {
+          "bn": "পরামর্শ কীভাবে জিজ্ঞাসা এবং প্রদান করতে হয় তা শিখুন",
+          "en": "Learn how to ask and give advice",
+          "gu": "સલાહ કેવી રીતે પૂછવી અને આપવી તે શીખો",
+          "hi": "सलाह कैसे पूछें और दें, यह सीखें",
+          "kn": "ಸಲಹೆ ಕೇಳುವುದು ಮತ್ತು ನೀಡುವುದು ಹೇಗೆ ಎಂದು ಕಲಿಯಿರಿ",
+          "ml": "ഉപദേശം എങ്ങനെ ചോദിക്കുക మరియు നൽകാം എന്ന് പഠിക്കുക",
+          "mr": "सल्ला कसा विचारायचा आणि देण्याचा पद्धत शिका",
+          "ta": "ஆலோசனையை எவ்வாறு கேட்கவும் வழங்கவும் என்பதை கற்றுக்கொள்ளுங்கள்",
+          "te": "సలహా ఎలా అడగాలి మరియు ఇవ్వాలో నేర్చుకోండి"
+        }
+      },
+      {
+        "title": "Articles: A, An, The",
+        "colors": {
+          "primary": "#8BC34A",
+          "secondary": "#AED581",
+          "shadow_color": "#689F38"
+        },
+        "activities": [
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Learn the Articles: A and An",
+            "locked": false,
+            "scenario_id": "cf4bdd30-e5d8-4261-9b94-80c9efeb209f",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/cf4bdd30-e5d8-4261-9b94-80c9efeb209f"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Let's Revise Articles- \"A & An”",
+            "locked": true,
+            "scenario_id": "5c64f90a-0ce5-4d9b-83b8-1237f4fec097",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/5c64f90a-0ce5-4d9b-83b8-1237f4fec097"
+            }
+          },
+          {
+            "type": "speak",
+            "stars": 0,
+            "title": "Using Articles: The",
+            "locked": true,
+            "scenario_id": "e0ecd95e-37ee-4084-8c8c-69debbe4c991",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/e0ecd95e-37ee-4084-8c8c-69debbe4c991"
+            }
+          },
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Revise Article \"The”",
+            "locked": true,
+            "scenario_id": "9a5031a2-d9ed-40b6-a7fe-cdc2347fe73f",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/9a5031a2-d9ed-40b6-a7fe-cdc2347fe73f"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Revise Articles",
+            "locked": true,
+            "scenario_id": "adca3083-b541-4a90-bbb2-86c9d831a58d",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "activity_subtext": {
+              "bn": "",
+              "en": "",
+              "gu": "",
+              "hi": "",
+              "kn": "",
+              "ml": "",
+              "mr": "",
+              "ta": "",
+              "te": ""
+            },
+            "redirect_app_path": {
+              "en": "/speak/scenarios/adca3083-b541-4a90-bbb2-86c9d831a58d"
+            }
+          }
+        ],
+        "banner_url": "https://r2-activity-data.gosupernova.live/system-uploads/home/991ccb5b-ad81-4ffd-973c-4388a72a5501-1.png",
+        "description": "Learn to use articles",
+        "miss_nova_image": "https://7j8u68796u.ufs.sh/f/6zVkEzwcHEDBgTDaw4dmxVu83iQn5IbfdEcyRMF7NlwOWUrA",
+        "section_subtext": {
+          "bn": "আর্টিকেলগুলি কীভাবে ব্যবহার করতে হয় তা শিখুন",
+          "en": "Learn to use articles",
+          "gu": "આર્ટિકલ્સ કેવી રીતે ઉપયોગ કરવું તે શીખો",
+          "hi": "आर्टिकल्स का उपयोग कैसे करें यह सीखें",
+          "kn": "ಆರ್ಟಿಕಲ್‌ಗಳನ್ನು ಹೇಗೆ ಬಳಸುವುದು ಎಂಬುದನ್ನು ಕಲಿಯಿರಿ",
+          "ml": "ആർട്ടിക്കലുകൾ എങ്ങനെ ഉപയോഗിക്കാമെന്ന് പഠിക്കുക",
+          "mr": "आर्टिकल्स कसे वापरायचे हे शिका",
+          "ta": "ஆர்டிக்கல்களை எவ்வாறு பயன்படுத்துவது என்பதை கற்றுக்கொள்ளுங்கள்",
+          "te": "ఆర్టికల్స్‌ను ఎలా ఉపయోగించాలో నేర్చుకోండి"
+        }
+      }
+    ]
+  }
+}
+
+

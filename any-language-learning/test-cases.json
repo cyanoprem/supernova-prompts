@@ -1,0 +1,55 @@
+[
+  {
+    "concept": "I across all tenses",
+    "user_type": "beginner",
+    "questions" : [
+      "Can you translate 'I eat everyday' to English?🍽️😋\n\nuse 'I [verb] everyday'",
+      "Can you translate 'I will study tomorrow' to English?📚🕘\n\n use 'I will [verb] tomorrow'",
+      "Can you translate 'I was playing yesterday' to English?🎮😊\n\n use 'I was [verb]-ing yesterday'"
+    ]
+  },
+  {
+    "concept": "Restaurant situations",
+    "user_type": "beginner",
+    "questions": [
+      "Can you translate 'Can I pay by card?' to English?",
+      "Can you translate 'Can you bring me the menu?' to English?",
+      "Can you translate 'I'll have this dish' to English?",
+      "Can you translate 'Is it spicy?' to English?",
+      "Can you translate 'How much is the bill?' to English?"
+    ]
+  },
+  {
+    "concept": "Using the word 'apparently'",
+    "user_type": "beginner",
+    "questions": [
+      "Can you translate 'Apparently he is sick' to English?",
+      "Can you translate 'Apparently it will rain' to English?",
+      "Can you translate 'Apparently they will come late' to English?",
+      "Can you translate 'Apparently this work is difficult' to English?",
+      "Can you translate 'Apparently he had lied' to English?"
+    ]
+  },
+  {
+    "concept": "Past tense with pronoun 'I'",
+    "user_type": "advanced",
+    "questions": [
+      "Can you create a sentence with 'I' using the verb 'work' in past tense?",
+      "Can you create a sentence with 'I' using the verb 'eat' in past continuous tense?",
+      "Can you create a sentence with 'I' using the verb 'finish' in past perfect tense?",
+      "Can you create a sentence with 'I' using the verb 'sleep' in simple past tense?",
+      "Can you create a sentence with 'I' using the verb 'travel' in past perfect continuous tense?"
+    ]
+  },
+  {
+    "concept": "Using the word 'apparently'",
+    "user_type": "advanced",
+    "questions": [
+      "Can you create a sentence using the word 'apparently'?",
+      "Make a sentence with 'apparently' about weather?",
+      "Use 'apparently' in a sentence about someone being late?",
+      "Create a sentence with 'apparently' about a movie?",
+      "Use 'apparently' to make a sentence about news?"
+    ]
+  }
+]

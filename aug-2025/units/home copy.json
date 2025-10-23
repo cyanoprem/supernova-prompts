@@ -1,0 +1,252 @@
+{
+  "key": "default",
+  "course": {
+    "sections": [
+      {
+        "title": "Introduce yourself",
+        "colors": {
+          "primary": "#8BC34A",
+          "secondary": "#AED581",
+          "shadow_color": "#689F38"
+        },
+        "activities": [
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Introduce Your Name, Location, and Job",
+            "locked": false,
+            "scenario_id": "80e3d3f9-70d2-472e-b450-4689814eb8ed",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "redirect_app_path": {
+              "en": "/speak/scenarios/80e3d3f9-70d2-472e-b450-4689814eb8ed"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Introduce Your Family, Hobbies, and Birthday",
+            "locked": true,
+            "scenario_id": "c59dc1d0-6136-4fba-a3ff-00a3f606887f",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "redirect_app_path": {
+              "en": "/speak/scenarios/c59dc1d0-6136-4fba-a3ff-00a3f606887f"
+            }
+          }
+        ],
+        "banner_url": "https://r2-activity-data.gosupernova.live/system-uploads/home/991ccb5b-ad81-4ffd-973c-4388a72a5501-1.png",
+        "description": "Talk About Your Daily Routine",
+        "miss_nova_image": "https://7j8u68796u.ufs.sh/f/6zVkEzwcHEDBgTDaw4dmxVu83iQn5IbfdEcyRMF7NlwOWUrA"
+      },
+      {
+        "title": "Describe daily routines",
+        "colors": {
+          "primary": "#FF9800",
+          "secondary": "#FFB74D",
+          "shadow_color": "#F57C00"
+        },
+        "activities": [
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Simple Present in Daily Routine",
+            "locked": false,
+            "scenario_id": "85d9cf96-230e-4611-a01a-583674faadb1",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "redirect_app_path": {
+              "en": "/speak/scenarios/85d9cf96-230e-4611-a01a-583674faadb1"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Describe Day in Detail",
+            "locked": true,
+            "scenario_id": "74bbbf45-a557-4144-aa18-fb3f603d7e39",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "redirect_app_path": {
+              "en": "/speak/scenarios/74bbbf45-a557-4144-aa18-fb3f603d7e39"
+            }
+          },
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Connecting Your Routine",
+            "locked": true,
+            "scenario_id": "06fd5d55-0bd1-4ae2-a676-57f5c40547a3",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "redirect_app_path": {
+              "en": "/speak/scenarios/06fd5d55-0bd1-4ae2-a676-57f5c40547a3"
+            }
+          }
+        ],
+        "banner_url": "https://r2-activity-data.gosupernova.live/system-uploads/home/4e9dd5bb-37f9-4628-9982-85fe437e294b-Untitled-(270-x-270-px)-(1).png",
+        "description": "Talk About Your Daily Routine",
+        "miss_nova_image": "https://7j8u68796u.ufs.sh/f/6zVkEzwcHEDBgTDaw4dmxVu83iQn5IbfdEcyRMF7NlwOWUrA"
+      },
+      {
+        "title": "Talk about past actions",
+        "colors": {
+          "primary": "#FF6B6B",
+          "secondary": "#FF8A80",
+          "shadow_color": "#E53935"
+        },
+        "activities": [
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Simple Past with Regular Verbs",
+            "locked": true,
+            "scenario_id": "2c63ae5a-3ecd-4329-ac69-a509cf63c1f6",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "redirect_app_path": {
+              "en": "/speak/scenarios/2c63ae5a-3ecd-4329-ac69-a509cf63c1f6"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Describing the Past with Irregular Verbs",
+            "locked": true,
+            "scenario_id": "d4631a46-f8d4-45a5-b6c5-164d6da65501",
+            "validations": [],
+            "activity_cta": "Start Speaking",
+            "redirect_app_path": {
+              "en": "/speak/scenarios/d4631a46-f8d4-45a5-b6c5-164d6da65501"
+            }
+          },
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Irregular Verbs with Objects",
+            "locked": true,
+            "scenario_id": "5631cf67-0767-4eea-b971-a03f2f6ba6f6",
+            "validations": [],
+            "activity_cta": "Start Listening",
+            "redirect_app_path": {
+              "en": "/speak/scenarios/5631cf67-0767-4eea-b971-a03f2f6ba6f6"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Connecting Past Actions",
+            "locked": true,
+            "scenario_id": "c4283ec1-1532-46e4-8038-8cc9c45c1f6d",
+            "validations": [],
+            "activity_cta": "Start Listening",
+            "redirect_app_path": {
+              "en": "/speak/scenarios/c4283ec1-1532-46e4-8038-8cc9c45c1f6d"
+            }
+          }
+        ],
+        "banner_url": "https://r2-activity-data.gosupernova.live/system-uploads/home/8748363d-0579-410d-82a6-f9e6e88a172f-3.png",
+        "description": "Talk About Past Actions",
+        "miss_nova_image": "https://7j8u68796u.ufs.sh/f/6zVkEzwcHEDBgTDaw4dmxVu83iQn5IbfdEcyRMF7NlwOWUrA"
+      },
+      {
+        "title": "Talk about future plans",
+        "colors": {
+          "primary": "#4DD0E1",
+          "secondary": "#80DEEA",
+          "shadow_color": "#00ACC1"
+        },
+        "activities": [
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Talking About Future Plans",
+            "locked": true,
+            "scenario_id": "aa8544a9-6cd0-4f4c-9a5b-7a7095533dd9",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "redirect_app_path": {
+              "en": "/speak/scenarios/aa8544a9-6cd0-4f4c-9a5b-7a7095533dd9"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Future Plans with Objects",
+            "locked": true,
+            "scenario_id": "7242b3f8-bc2a-4b2e-a8bf-67848cfd8e0c",
+            "validations": [],
+            "activity_cta": "Start Speaking",
+            "redirect_app_path": {
+              "en": "/speak/scenarios/7242b3f8-bc2a-4b2e-a8bf-67848cfd8e0c"
+            }
+          },
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Connecting Future Actions",
+            "locked": true,
+            "scenario_id": "513c35f6-29d3-482e-8443-e7f27be50184",
+            "validations": [],
+            "activity_cta": "Start Listening",
+            "redirect_app_path": {
+              "en": "/speak/scenarios/513c35f6-29d3-482e-8443-e7f27be50184"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Talk to Miss Nova",
+            "locked": true,
+            "scenario_id": "227c293a-9771-439f-8d4d-be248f03f69d",
+            "validations": [],
+            "activity_cta": "Start Listening",
+            "redirect_app_path": {
+              "en": "/speak/scenarios/227c293a-9771-439f-8d4d-be248f03f69d"
+            }
+          }
+        ],
+        "banner_url": "https://r2-activity-data.gosupernova.live/system-uploads/home/eb498d45-07f9-4662-a025-5cca8f9030c3-4.png",
+        "description": "Talk about future plans",
+        "miss_nova_image": "https://7j8u68796u.ufs.sh/f/6zVkEzwcHEDBgTDaw4dmxVu83iQn5IbfdEcyRMF7NlwOWUrA"
+      },
+      {
+        "title": "Make polite requests",
+        "colors": {
+          "primary": "#AB47BC",
+          "secondary": "#CE93D8",
+          "shadow_color": "#8E24AA"
+        },
+        "activities": [
+          {
+            "type": "listen",
+            "stars": 0,
+            "title": "Asking Politely : Can You...",
+            "locked": true,
+            "scenario_id": "4c1f3561-1e3c-4039-9ab7-6b32751ba951",
+            "validations": [],
+            "activity_cta": "Start Activity",
+            "redirect_app_path": {
+              "en": "/speak/scenarios/4c1f3561-1e3c-4039-9ab7-6b32751ba951"
+            }
+          },
+          {
+            "type": "play",
+            "stars": 0,
+            "title": "Polite Requests with 'Could'",
+            "locked": true,
+            "scenario_id": "a29ee150-2b7c-470e-a8cd-2846e0127b4f",
+            "validations": [],
+            "activity_cta": "Start Speaking",
+            "redirect_app_path": {
+              "en": "/speak/scenarios/a29ee150-2b7c-470e-a8cd-2846e0127b4f"
+            }
+          }
+        ],
+        "banner_url": "https://r2-activity-data.gosupernova.live/system-uploads/home/92331ce4-23ee-462f-b73e-6fbdbb8ec9d2-5.png",
+        "description": "Make polite requests",
+        "miss_nova_image": "https://7j8u68796u.ufs.sh/f/6zVkEzwcHEDBgTDaw4dmxVu83iQn5IbfdEcyRMF7NlwOWUrA"
+      }
+    ]
+  }
+}

@@ -1,49 +1,46 @@
 # Unit: Shop in English
 
-## Lesson: Making polite requests
+## Lesson: Ask for One Item
 ### Sentences:
-Can I have water, please?
-Can I have coffee, please?
-Can I have tea, please?
-Can I have bread, please?
-Can I have milk, please?
-Cheatsheet:
-Can I have [Object], please?
+1.	Can I have one pen, please? 
+2.	Can I have one apple, please? 
+3.	Can I have one ticket, please? 
+4.	Can I have one sandwich, please? 
+5.	Can I have one water bottle, please? 
+6.	Can I have one book, please?
+
+### Cheatsheet:
+Can I have one [Object], please?
 
 ### Chatlesson:
 "Language: Default: 
 
-message: Hey 👋, in this lesson we are going to learn to make polite requests when shopping
+message: Hey 👋, let's learn to buy one item in a shop🛍️
 
-- Can I have water, please? (Meaning: Can I have water, please?) 💧
-- Can I have coffee, please? (Meaning: Can I have coffee, please?) ☕
+- "Can I have one pen, please?" (Meaning: Can I have one pen, please?)🖋️
+
 image_url:
 button_text: Okay!
 
-message: You can make these sentences using this pattern: 
+message: We're going to use the pattern in the above picture to form sentences like these:
 
-Can I have [Object], please?
+- "Can I have one water bottle, please?" (Meaning: Can I have one water bottle, please?)🧂
 
-- Example: Can I have tea, please? ☕
-- Example: Can I have bread, please? 🍞
-image_url:
+image_url: Cheatsheet: Can I have one [Object], please?
 button_text: I understand.
 
-message: "Please" makes your request polite and respectful
+message: 
+- "please" makes you sound polite🙏
 
-[Object] is what you want to buy or get
+- [Object] here is what you want to buy or get.
 
-Examples:
-- milk 🥛
-- bread 🍞
-image_url:
+- [Object] can be: Pen 🖋️, Water Bottle🧂
+
+image_url: Cheatsheet: Can I have one [Object], please?
 button_text: Got it!
 
-message: Using this pattern: 
+message: Now let's try some shopping exercises!🛒🛍️✨
 
-Can I have [Object], please?
-
-let's try some shopping exercises! 🛒
 image_url:
 button_text: Let's practice!"
 
@@ -51,7 +48,7 @@ button_text: Let's practice!"
 ---
 
 
-## Lesson: Asking with quantity
+## Lesson: Ask for Multiple items
 ### Sentences:
 Can I have two oranges, please?
 Can I have three apples, please?
@@ -59,42 +56,39 @@ Can I have five bananas, please?
 Can I have four bottles, please?
 Can I have six eggs, please?
 Can I have ten pencils, please?
-Cheatsheet:
+
+### Cheatsheet:
 Can I have [Number] [Objects], please?
 
 ### Chatlesson:
 "Language: Default: 
 
-message: Hey 👋, in this lesson we are going to learn to ask for specific quantities when shopping
+message: Hey 👋, let's learn to ask for multiple items in a shop 🛍️
 
-- Can I have two oranges, please? (Meaning: Can I have two oranges, please?) 2️⃣🍊
-- Can I have three apples, please? (Meaning: Can I have three apples, please?) 3️⃣🍎
+- "Can I have two oranges, please?" (Meaning: Can I have two oranges, please?) 2️⃣🍊
+
 image_url:
 button_text: Okay!
 
-message: You can make these sentences using this pattern: 
+message: We're going to use the pattern in the above picture to form sentences like these:
 
-Can I have [Number] [Objects], please?
+- "Can I have four bottles, please?" (Meaning: Can I have four bottles, please?) 4️⃣🧂
 
-- Example: Can I have four bottles, please? 4️⃣🧂
-image_url:
+image_url: Cheatsheet: Can I have [Number] [Objects], please?
 button_text: I understand.
 
-message: [Number] tells how many items you want
+message:
+- [Number] here is how many items you want.
 
-[Objects] is what you want to buy or get in multiple quantities
+- [Objects] here are plural forms when buying more than one.
 
-Examples:
-- six eggs 6️⃣🥚
-- ten pencils 🔟✏️
-image_url:
+- Examples: orange → oranges 🍊, bottle → bottles 🧂, apple → apples 🍎
+
+image_url: Cheatsheet: Can I have [Number] [Objects], please?
 button_text: Got it!
 
-message: Using this pattern: 
+message: Now let's learn to shop for multiple items! 🛒🛍️✨
 
-Can I have [Number] [Objects], please?
-
-let's try some buying multiple items exercises! 🔢
 image_url:
 button_text: Let's practice!"
 
@@ -109,42 +103,41 @@ How much is this watch?
 How much is this bag?
 How much is this book?
 How much is this jacket?
-Cheatsheet:
+
+### Cheatsheet:
 How much is this [Object]?
 
 ### Chatlesson:
 "Language: Default: 
 
-message: Hey 👋, in this lesson we are going to learn to ask about prices when shopping
+message: Hey 👋, let's learn to ask about prices when shopping 💰
 
-- How much is this phone? (Meaning: How much is this phone?) 📱💰
-- How much is this watch? (Meaning: How much is this watch?) ⌚💸
+- "How much is this phone?" (Meaning: How much is this phone?) 👉📱
+
 image_url:
 button_text: Okay!
 
-message: You can make these sentences using this pattern: 
+message: We're going to use the pattern in the above picture to form sentences like these:
 
-How much is this [Object]?
+- "How much is this bag?" (Meaning: How much is this bag?) 👉🎒
 
-- Example: How much is this bag? 🎒💰
-- Example: How much is this book? 📚💸
-image_url:
+image_url: Cheatsheet: How much is this [Object]?
 button_text: I understand.
 
-message: "How much" asks for the price or cost
+message: 
+- "How much" asks for the price or cost 💸
 
-And "This" refers to something you can see or point to 👉
+- "this" refers to something you can see or point to 👉
 
-Examples:
-- How much is this phone? 👉📱
-image_url:
+- [Object] here is what you want to know the price of.
+
+- [Object] can be: phone 📱, watch ⌚, jacket 🧥
+
+image_url: Cheatsheet: How much is this [Object]?
 button_text: Got it!
 
-message: Using this pattern: 
+message: Now let's learn to ask prices! 💰
 
-How much is this [Object]?
-
-let's try some price inquiry exercises! 💰
 image_url:
 button_text: Let's practice!"
 
@@ -159,42 +152,37 @@ Can I pay by credit card?
 Can I pay by debit card?
 Can I pay by cash?
 Can I pay by cheque?
-Cheatsheet:
+
+### Cheatsheet:
 Can I pay by [Method]?
 
 ### Chatlesson:
 "Language: Default: 
 
-message: Hey 👋, in this lesson we are going to learn to ask about payment methods when shopping
+message: Hey 👋, let's learn to ask about payment methods when shopping 💳
 
-- Can I pay by UPI? (Meaning: Can I pay by UPI?) 📱
-- Can I pay by credit card? (Meaning: Can I pay by credit card?) 💳
+- "Can I pay by UPI?" (Meaning: Can I pay by UPI?) 📱
+
 image_url:
 button_text: Okay!
 
-message: You can make these sentences using this pattern: 
+message: We're going to use the pattern in the above picture to form sentences like these:
 
-Can I pay by [Method]?
+- "Can I pay by cash?" (Meaning: Can I pay by cash?) 💵
 
-- Example: Can I pay by debit card? 💳
-- Example: Can I pay by cash? 💵
-image_url:
+image_url: Cheatsheet: Can I pay by [Method]?
 button_text: I understand.
 
-message: [Method] is the way you want to pay for your purchase
+message: 
+- "Can I pay by" is a polite way to ask 🙏
 
-Different payment methods:
-- UPI 📱
-- credit card 💳
-- cash 💵
-- cheque 📝
-image_url:
+- [Method] here is the way you want to pay for your purchase.
+
+- [Method] can be: UPI 📱, credit card 💳, cash 💵, cheque 📝
+image_url: Cheatsheet: Can I pay by [Method]?
 button_text: Got it!
 
-message: Using this pattern: 
+message: Now let's learn to ask for payment methods! 💳
 
-Can I pay by [Method]?
-
-let's try some payment exercises! 💰
 image_url:
 button_text: Let's practice!"
