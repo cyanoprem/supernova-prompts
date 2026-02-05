@@ -1,0 +1,67 @@
+section,type,hint_image_url,data,should_instruction_be_translated,jumble_extra_words_comma,question_voices
+header,icon_image_text,,Job Interview Prep,,,
+header,title,,Job Interview Preparation,,,
+config,voices,,Priya-Priya,,,
+config,activity_type,,lesson,,,
+config,display_activity_type,,Grammar Builder,,,
+config,personas,,spoken-english-adults-level-A0,,,
+config,description,,Learn to present yourself confidently in job interviews,TRUE,,
+config,populate,,TRUE,,,
+config,populate_languages,,TRUE,,,
+config,always_show_hint,,TRUE,,,
+config,read_aloud_after_jumble,,TRUE,,,
+config,reattempt_jumble,,TRUE,,,
+config,english_language_toggle,,FALSE,,,
+config,skip_transcription,,TRUE,,,
+config,rich_chat,,TRUE,,,
+config,key_skills,,"speaking,grammar",,,
+config,chat_suggestions,,Yes! Let's Start.,,,
+config,disable_skip,,FALSE,,,
+config,tts_config,,"{""silent_mode"":false}",,,
+config,badge_title,,Learn,,,
+1,chat_lessons,,"message: Let us learn to present yourself confidently in job interviews.
+image_url:
+button_text: Next!
+
+message: You will learn how to talk about your experience, career break, and strengths professionally.
+image_url:
+button_text: Next!
+
+message: Let's practice answering common interview questions.
+image_url:
+button_text: Start Practice!
+
+",,,
+1,jumbles_listening_comprehension,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/21e10a38-75c6-4569-9aba-d96b91b8bc49-Structure---1.jpg,I have 5&&years of&&experience in customer&&service.,,,
+1,jumbles_listening_comprehension,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/51c2db1e-da46-44a2-b553-e94c7cdf72f6-Structure---2.jpg,I took&&a career&&break to raise&&my children, but now I'm ready&&to return&&to work.,,,
+1,jumbles_listening_comprehension,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/6530a037-6233-4f0a-8f77-3f48b8ec8adc-Structure---3.jpg,My strengths are communication and&&time management.,,,
+1,jumbles_listening_comprehension,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/587b3bac-9903-4d5a-9db8-00054f8df802-Structure---4.jpg,I'm interested in&&this position because&&it matches my&&skills.,,,
+1,jumbles_listening_comprehension,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/04457f54-5229-45ea-863a-1eae9ad92893-Structure---5.jpg,When can&&I expect&&to hear&&from you?,,,
+1,section_type,,learn,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/21e10a38-75c6-4569-9aba-d96b91b8bc49-Structure---1.jpg,I have 3&&years of&&experience in teaching.,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/51c2db1e-da46-44a2-b553-e94c7cdf72f6-Structure---2.jpg,I took&&a career&&break to care&&for my family, but now I'm ready&&to restart&&my career.,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/6530a037-6233-4f0a-8f77-3f48b8ec8adc-Structure---3.jpg,My strengths are teamwork and&&problem-solving.,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/587b3bac-9903-4d5a-9db8-00054f8df802-Structure---4.jpg,I'm interested in&&this position because&&I enjoy&&working with&&people.,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/04457f54-5229-45ea-863a-1eae9ad92893-Structure---5.jpg,When can&&I expect&&to hear&&from you?,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/21e10a38-75c6-4569-9aba-d96b91b8bc49-Structure---1.jpg,I have 7&&years of&&experience in administration.,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/51c2db1e-da46-44a2-b553-e94c7cdf72f6-Structure---2.jpg,I took&&a career&&break to raise&&my children, but now I'm ready&&to return&&to work.,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/6530a037-6233-4f0a-8f77-3f48b8ec8adc-Structure---3.jpg,My strengths are patience and&&organization.,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/587b3bac-9903-4d5a-9db8-00054f8df802-Structure---4.jpg,I'm interested in&&this position because&&it offers&&growth&&opportunities.,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/04457f54-5229-45ea-863a-1eae9ad92893-Structure---5.jpg,When can&&I expect&&to hear&&from you?,,,
+2,section_type,,practice,,,
+3,roleplay,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/2c74d9ea-e815-4539-b61f-99a97d0898e2-Homemaker---Final.jpg,"first_message: Hey! Great job on understanding this concept. Now, ""translate"" 10 sentences to English. Are you ready to start?
+prompt_id: 2b8c37a9-692f-42ac-8398-fe80471c6ce6
+questions: ""Questions: (keep these common words in english - years, experience, sales, career break, healthcare, ready, join, workforce, strengths, leadership, dedication, interested, position, flexible, hours, learning, opportunities, expect, hear etc)
+1. I have 4 years of experience in sales.
+2. I took a career break to care for my family, but now I'm ready to join the workforce.
+3. My strengths are leadership and dedication.
+4. I'm interested in this position because it offers flexible hours.
+5. When can I expect to hear from you?
+6. I have 6 years of experience in healthcare.
+7. I took a career break to raise my children, but now I'm ready to restart my career.
+8. My strengths are multitasking and attention to detail.
+9. I'm interested in this position because it provides learning opportunities.
+10. When can I expect to hear from you?""
+grammar_concept:  """"
+SYSTEM_TRANSLATION_RULES: """"",,,
+3,section_type,,translate,,,

@@ -82,34 +82,35 @@
 
 ### Day 13
 - **9. Possessive Pronouns** (Recall 2)
+- **2. I Across Tenses** (Recall 3)
 
 ### Day 14
-- **2. I Across Tenses** (Recall 3)
+- **3. He/She/It Across Tenses** (Recall 3)
 
 ---
 
 ## Week 3 (Days 15-21)
 
 ### Day 15
-- **3. He/She/It Across Tenses** (Recall 3)
-
-### Day 16
 - **4. You/We/They Across Tenses** (Recall 3)
 
-### Day 17
+### Day 16
 - **5. Transitive Past Tense** (Recall 3)
 
-### Day 18
+### Day 17
 - **6. Dative Case Usage** (Recall 3)
 
-### Day 19
+### Day 18
 - **7. Postpositions** (Recall 3)
 
-### Day 20
+### Day 19
 - **8. Conjunctions/Determiners/Misc** (Recall 3)
 
-### Day 21
+### Day 20
 - **9. Possessive Pronouns** (Recall 3)
+
+### Day 21
+- All reviews
 
 ---
 
@@ -216,3 +217,37 @@
 - If you struggle with a topic during recall, add an extra review session the next day
 - The gaps between recalls increase as topics move to long-term memory
 - By Day 90, all topics should be in your long-term memory with 95%+ retention
+
+
+## 30 Day Plan
+
+Vocabulary (First Time)
+I Across Tenses (First Time) + Vocabulary (Recall 1)
+He/She/It Across Tenses (First Time) + I Across Tenses (Recall 1)
+You/We/They Across Tenses (First Time) + He/She/It Across Tenses (Recall 1)
+Transitive Past Tense (First Time) + You/We/They Across Tenses (Recall 1) + Vocabulary (Recall 2)
+Dative Case Usage (First Time) + Transitive Past Tense (Recall 1) + I Across Tenses (Recall 2)
+Postpositions (First Time) + Dative Case Usage (Recall 1) + He/She/It Across Tenses (Recall 2)
+Conjunctions/Determiners/Misc (First Time) + Postpositions (Recall 1) + You/We/They Across Tenses (Recall 2)
+Possessive Pronouns (First Time) + Conjunctions/Determiners/Misc (Recall 1) + Transitive Past Tense (Recall 2)
+Possessive Pronouns (Recall 1) + Dative Case Usage (Recall 2)
+Postpositions (Recall 2)
+Conjunctions/Determiners/Misc (Recall 2) + Vocabulary (Recall 3)
+Possessive Pronouns (Recall 2) + I Across Tenses (Recall 3)
+He/She/It Across Tenses (Recall 3)
+You/We/They Across Tenses (Recall 3)
+Transitive Past Tense (Recall 3)
+Dative Case Usage (Recall 3)
+Postpositions (Recall 3)
+Conjunctions/Determiners/Misc (Recall 3)
+Possessive Pronouns (Recall 3)
+All reviews
+All reviews
+All reviews
+All reviews
+All reviews
+All reviews
+All reviews
+All reviews
+All reviews
+All reviews

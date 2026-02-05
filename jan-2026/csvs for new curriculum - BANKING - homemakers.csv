@@ -1,0 +1,67 @@
+section,type,hint_image_url,data,should_instruction_be_translated,jumble_extra_words_comma,question_voices
+header,icon_image_text,,Banking,,,
+header,title,,Banking in English,,,
+config,voices,,Priya-Priya,,,
+config,activity_type,,lesson,,,
+config,display_activity_type,,Grammar Builder,,,
+config,personas,,spoken-english-adults-level-A0,,,
+config,description,,Learn to handle banking tasks in English confidently,TRUE,,
+config,populate,,TRUE,,,
+config,populate_languages,,TRUE,,,
+config,always_show_hint,,TRUE,,,
+config,read_aloud_after_jumble,,TRUE,,,
+config,reattempt_jumble,,TRUE,,,
+config,english_language_toggle,,FALSE,,,
+config,skip_transcription,,TRUE,,,
+config,rich_chat,,TRUE,,,
+config,key_skills,,"speaking,grammar",,,
+config,chat_suggestions,,Yes! Let's Start.,,,
+config,disable_skip,,FALSE,,,
+config,tts_config,,"{""silent_mode"":false}",,,
+config,badge_title,,Learn,,,
+1,chat_lessons,,"message: Let us learn to handle banking tasks in English confidently.
+image_url:
+button_text: Next!
+
+message: You will learn how to talk to bank staff, understand documents, and manage your accounts.
+image_url:
+button_text: Next!
+
+message: Let's practice common banking conversations.
+image_url:
+button_text: Start Practice!
+
+",,,
+1,jumbles_listening_comprehension,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/21e10a38-75c6-4569-9aba-d96b91b8bc49-Structure---1.jpg,I would&&like to withdraw&&money from&&my account.,,,
+1,jumbles_listening_comprehension,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/51c2db1e-da46-44a2-b553-e94c7cdf72f6-Structure---2.jpg,Can you help&&me understand&&this bank&&statement?,,,
+1,jumbles_listening_comprehension,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/6530a037-6233-4f0a-8f77-3f48b8ec8adc-Structure---3.jpg,I need&&to update&&my phone&&number in your records.,,,
+1,jumbles_listening_comprehension,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/587b3bac-9903-4d5a-9db8-00054f8df802-Structure---4.jpg,What documents do&&I need&&to open&&a new&&account?,,,
+1,jumbles_listening_comprehension,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/04457f54-5229-45ea-863a-1eae9ad92893-Structure---5.jpg,Is there&&a fee&&for online&&banking?,,,
+1,section_type,,learn,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/21e10a38-75c6-4569-9aba-d96b91b8bc49-Structure---1.jpg,I would&&like to deposit&&cash into&&my account.,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/51c2db1e-da46-44a2-b553-e94c7cdf72f6-Structure---2.jpg,Can you help&&me understand&&this interest&&rate?,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/6530a037-6233-4f0a-8f77-3f48b8ec8adc-Structure---3.jpg,I need&&to update&&my address in your records.,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/587b3bac-9903-4d5a-9db8-00054f8df802-Structure---4.jpg,What documents do&&I need&&to apply&&for a loan?,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/04457f54-5229-45ea-863a-1eae9ad92893-Structure---5.jpg,Is there&&a fee&&for ATM&&withdrawals?,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/21e10a38-75c6-4569-9aba-d96b91b8bc49-Structure---1.jpg,I would&&like to transfer&&money from&&my account.,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/51c2db1e-da46-44a2-b553-e94c7cdf72f6-Structure---2.jpg,Can you help&&me understand&&this loan&&document?,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/6530a037-6233-4f0a-8f77-3f48b8ec8adc-Structure---3.jpg,I need&&to update&&my email&&ID in your records.,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/587b3bac-9903-4d5a-9db8-00054f8df802-Structure---4.jpg,What documents do&&I need&&to update&&my address?,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/04457f54-5229-45ea-863a-1eae9ad92893-Structure---5.jpg,Is there&&a fee&&for money&&transfer?,,,
+2,section_type,,practice,,,
+3,roleplay,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/2c74d9ea-e815-4539-b61f-99a97d0898e2-Homemaker---Final.jpg,"first_message: Hey! Great job on understanding this concept. Now, ""translate"" 10 sentences to English. Are you ready to start?
+prompt_id: 2b8c37a9-692f-42ac-8398-fe80471c6ce6
+questions: ""Questions: (keep these common words in english - withdraw, cash, account, help, understand, credit card, bill, need, update, mobile number, records, documents, close, account, cheque book, fee, debit card, apply, passbook etc)
+1. I would like to withdraw cash from my account.
+2. Can you help me understand this credit card bill?
+3. I need to update my mobile number in your records.
+4. What documents do I need to close my account?
+5. Is there a fee for a new cheque book?
+6. I would like to deposit money into my account.
+7. Can you help me understand this debit card charges?
+8. I need to update my signature in your records.
+9. What documents do I need to apply for a credit card?
+10. Is there a fee for a new passbook?""
+grammar_concept:  """"
+SYSTEM_TRANSLATION_RULES: """"",,,
+3,section_type,,translate,,,

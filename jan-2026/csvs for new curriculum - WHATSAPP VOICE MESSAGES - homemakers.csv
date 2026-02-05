@@ -1,0 +1,67 @@
+section,type,hint_image_url,data,should_instruction_be_translated,jumble_extra_words_comma,question_voices
+header,icon_image_text,,WhatsApp Voice Messages,,,
+header,title,,WhatsApp Voice Messages,,,
+config,voices,,Priya-Priya,,,
+config,activity_type,,lesson,,,
+config,display_activity_type,,Grammar Builder,,,
+config,personas,,spoken-english-adults-level-A0,,,
+config,description,,Learn to send confident voice messages in English on WhatsApp,TRUE,,
+config,populate,,TRUE,,,
+config,populate_languages,,TRUE,,,
+config,always_show_hint,,TRUE,,,
+config,read_aloud_after_jumble,,TRUE,,,
+config,reattempt_jumble,,TRUE,,,
+config,english_language_toggle,,FALSE,,,
+config,skip_transcription,,TRUE,,,
+config,rich_chat,,TRUE,,,
+config,key_skills,,"speaking,grammar",,,
+config,chat_suggestions,,Yes! Let's Start.,,,
+config,disable_skip,,FALSE,,,
+config,tts_config,,"{""silent_mode"":false}",,,
+config,badge_title,,Learn,,,
+1,chat_lessons,,"message: Let us learn to send confident voice messages in English on WhatsApp.
+image_url:
+button_text: Next!
+
+message: You will learn how to leave clear voice messages, make requests, and stay connected with friends.
+image_url:
+button_text: Next!
+
+message: Let's practice recording voice messages in English.
+image_url:
+button_text: Start Practice!
+
+",,,
+1,jumbles_listening_comprehension,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/21e10a38-75c6-4569-9aba-d96b91b8bc49-Structure---1.jpg,Hi! I wanted&&to tell&&you about&&the school&&meeting.,,,
+1,jumbles_listening_comprehension,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/51c2db1e-da46-44a2-b553-e94c7cdf72f6-Structure---2.jpg,Can you please check&&the WhatsApp&&group?,,,
+1,jumbles_listening_comprehension,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/6530a037-6233-4f0a-8f77-3f48b8ec8adc-Structure---3.jpg,I'm sending you the&&photos now.,,,
+1,jumbles_listening_comprehension,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/587b3bac-9903-4d5a-9db8-00054f8df802-Structure---4.jpg,Let me&&know if&&you need&&anything.,,,
+1,jumbles_listening_comprehension,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/04457f54-5229-45ea-863a-1eae9ad92893-Structure---5.jpg,Talk to&&you later. Take care!,,,
+1,section_type,,learn,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/21e10a38-75c6-4569-9aba-d96b91b8bc49-Structure---1.jpg,Hi! I wanted&&to tell&&you about&&tomorrow's&&function.,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/51c2db1e-da46-44a2-b553-e94c7cdf72f6-Structure---2.jpg,Can you please send&&me the&&homework&&details?,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/6530a037-6233-4f0a-8f77-3f48b8ec8adc-Structure---3.jpg,I'm sending you the&&document now.,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/587b3bac-9903-4d5a-9db8-00054f8df802-Structure---4.jpg,Let me&&know if&&you have&&any questions.,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/04457f54-5229-45ea-863a-1eae9ad92893-Structure---5.jpg,Talk to&&you later. Take care!,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/21e10a38-75c6-4569-9aba-d96b91b8bc49-Structure---1.jpg,Hi! I wanted&&to tell&&you about&&the new&&schedule.,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/51c2db1e-da46-44a2-b553-e94c7cdf72f6-Structure---2.jpg,Can you please share&&the photos&&from yesterday?,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/6530a037-6233-4f0a-8f77-3f48b8ec8adc-Structure---3.jpg,I'm sending you the&&address now.,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/587b3bac-9903-4d5a-9db8-00054f8df802-Structure---4.jpg,Let me&&know if&&you need&&more details.,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/04457f54-5229-45ea-863a-1eae9ad92893-Structure---5.jpg,Talk to&&you later. Take care!,,,
+2,section_type,,practice,,,
+3,roleplay,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/2c74d9ea-e815-4539-b61f-99a97d0898e2-Homemaker---Final.jpg,"first_message: Hey! Great job on understanding this concept. Now, ""translate"" 10 sentences to English. Are you ready to start?
+prompt_id: 2b8c37a9-692f-42ac-8398-fe80471c6ce6
+questions: ""Questions: (keep these common words in english - wanted, tell, party, birthday, please, call, back, send, recipe, sending, video, link, let me know, need, help, information, talk, later, take care etc)
+1. Hi! I wanted to tell you about the party tomorrow.
+2. Can you please call me back?
+3. I'm sending you the recipe now.
+4. Let me know if you need any help.
+5. Talk to you later. Take care!
+6. Hi! I wanted to tell you about my son's birthday.
+7. Can you please send me the video?
+8. I'm sending you the link now.
+9. Let me know if you need more information.
+10. Talk to you later. Take care!""
+grammar_concept:  """"
+SYSTEM_TRANSLATION_RULES: """"",,,
+3,section_type,,translate,,,

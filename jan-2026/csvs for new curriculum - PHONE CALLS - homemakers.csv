@@ -1,0 +1,67 @@
+section,type,hint_image_url,data,should_instruction_be_translated,jumble_extra_words_comma,question_voices
+header,icon_image_text,,Phone Calls,,,
+header,title,,Phone Calls in English,,,
+config,voices,,Priya-Priya,,,
+config,activity_type,,lesson,,,
+config,display_activity_type,,Grammar Builder,,,
+config,personas,,spoken-english-adults-level-A0,,,
+config,description,,Learn to handle phone calls confidently in English,TRUE,,
+config,populate,,TRUE,,,
+config,populate_languages,,TRUE,,,
+config,always_show_hint,,TRUE,,,
+config,read_aloud_after_jumble,,TRUE,,,
+config,reattempt_jumble,,TRUE,,,
+config,english_language_toggle,,FALSE,,,
+config,skip_transcription,,TRUE,,,
+config,rich_chat,,TRUE,,,
+config,key_skills,,"speaking,grammar",,,
+config,chat_suggestions,,Yes! Let's Start.,,,
+config,disable_skip,,FALSE,,,
+config,tts_config,,"{""silent_mode"":false}",,,
+config,badge_title,,Learn,,,
+1,chat_lessons,,"message: Let us learn to handle phone calls confidently in English.
+image_url:
+button_text: Next!
+
+message: You will learn how to make appointments, talk to service providers, and solve problems over the phone.
+image_url:
+button_text: Next!
+
+message: Let's practice phone conversations without fear.
+image_url:
+button_text: Start Practice!
+
+",,,
+1,jumbles_listening_comprehension,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/21e10a38-75c6-4569-9aba-d96b91b8bc49-Structure---1.jpg,Hello, this is Priya. I'm calling about&&my electricity&&bill.,,,
+1,jumbles_listening_comprehension,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/51c2db1e-da46-44a2-b553-e94c7cdf72f6-Structure---2.jpg,Could you please help&&me with&&my internet&&connection?,,,
+1,jumbles_listening_comprehension,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/6530a037-6233-4f0a-8f77-3f48b8ec8adc-Structure---3.jpg,I would&&like to book&&an&&appointment for next Tuesday.,,,
+1,jumbles_listening_comprehension,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/587b3bac-9903-4d5a-9db8-00054f8df802-Structure---4.jpg,Can you tell&&me when&&the technician will&&come?,,,
+1,jumbles_listening_comprehension,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/04457f54-5229-45ea-863a-1eae9ad92893-Structure---5.jpg,Thank you for&&your help. Have a nice&&day.,,,
+1,section_type,,learn,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/21e10a38-75c6-4569-9aba-d96b91b8bc49-Structure---1.jpg,Hello, this is Meera. I'm calling about&&my internet&&connection.,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/51c2db1e-da46-44a2-b553-e94c7cdf72f6-Structure---2.jpg,Could you please help&&me with&&my cable&&TV&&problem?,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/6530a037-6233-4f0a-8f77-3f48b8ec8adc-Structure---3.jpg,I would&&like to book&&an&&appointment for tomorrow&&morning.,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/587b3bac-9903-4d5a-9db8-00054f8df802-Structure---4.jpg,Can you tell&&me when&&my order will&&come?,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/04457f54-5229-45ea-863a-1eae9ad92893-Structure---5.jpg,Thank you for&&your help. Have a nice&&day.,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/21e10a38-75c6-4569-9aba-d96b91b8bc49-Structure---1.jpg,Hello, this is Anjali. I'm calling about&&my gas&&booking.,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/51c2db1e-da46-44a2-b553-e94c7cdf72f6-Structure---2.jpg,Could you please help&&me with&&my water&&supply issue?,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/6530a037-6233-4f0a-8f77-3f48b8ec8adc-Structure---3.jpg,I would&&like to book&&an&&appointment for Friday&&afternoon.,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/587b3bac-9903-4d5a-9db8-00054f8df802-Structure---4.jpg,Can you tell&&me when&&the technician will&&come?,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/04457f54-5229-45ea-863a-1eae9ad92893-Structure---5.jpg,Thank you for&&your help. Have a nice&&day.,,,
+2,section_type,,practice,,,
+3,roleplay,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/2c74d9ea-e815-4539-b61f-99a97d0898e2-Homemaker---Final.jpg,"first_message: Hey! Great job on understanding this concept. Now, ""translate"" 10 sentences to English. Are you ready to start?
+prompt_id: 2b8c37a9-692f-42ac-8398-fe80471c6ce6
+questions: ""Questions: (keep these common words in english - calling, water bill, help, problem, complaint, book, appointment, Monday, evening, delivery, package, thank you, nice day etc)
+1. Hello, this is Kavitha. I'm calling about my water bill.
+2. Could you please help me with my complaint?
+3. I would like to book an appointment for Monday evening.
+4. Can you tell me when the delivery will come?
+5. Thank you for your help. Have a nice day.
+6. Hello, this is Ravi. I'm calling about my phone bill.
+7. Could you please help me with my electricity problem?
+8. I would like to book an appointment for next Wednesday.
+9. Can you tell me when my package will come?
+10. Thank you for your help. Have a nice day.""
+grammar_concept:  """"
+SYSTEM_TRANSLATION_RULES: """"",,,
+3,section_type,,translate,,,

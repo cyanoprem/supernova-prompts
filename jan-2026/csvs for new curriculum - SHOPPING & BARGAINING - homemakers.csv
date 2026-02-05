@@ -1,0 +1,67 @@
+section,type,hint_image_url,data,should_instruction_be_translated,jumble_extra_words_comma,question_voices
+header,icon_image_text,,Shopping & Bargaining,,,
+header,title,,Shopping & Bargaining,,,
+config,voices,,Priya-Priya,,,
+config,activity_type,,lesson,,,
+config,display_activity_type,,Grammar Builder,,,
+config,personas,,spoken-english-adults-level-A0,,,
+config,description,,Learn to shop and bargain confidently in English,TRUE,,
+config,populate,,TRUE,,,
+config,populate_languages,,TRUE,,,
+config,always_show_hint,,TRUE,,,
+config,read_aloud_after_jumble,,TRUE,,,
+config,reattempt_jumble,,TRUE,,,
+config,english_language_toggle,,FALSE,,,
+config,skip_transcription,,TRUE,,,
+config,rich_chat,,TRUE,,,
+config,key_skills,,"speaking,grammar",,,
+config,chat_suggestions,,Yes! Let's Start.,,,
+config,disable_skip,,FALSE,,,
+config,tts_config,,"{""silent_mode"":false}",,,
+config,badge_title,,Learn,,,
+1,chat_lessons,,"message: Let us learn to shop and bargain confidently in English.
+image_url:
+button_text: Next!
+
+message: You will learn how to ask for items, check prices, and negotiate discounts politely.
+image_url:
+button_text: Next!
+
+message: Let's practice shopping conversations in English.
+image_url:
+button_text: Start Practice!
+
+",,,
+1,jumbles_listening_comprehension,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/21e10a38-75c6-4569-9aba-d96b91b8bc49-Structure---1.jpg,Do you have this in&&a smaller&&size?,,,
+1,jumbles_listening_comprehension,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/51c2db1e-da46-44a2-b553-e94c7cdf72f6-Structure---2.jpg,How much does&&this saree cost?,,,
+1,jumbles_listening_comprehension,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/6530a037-6233-4f0a-8f77-3f48b8ec8adc-Structure---3.jpg,Can you give&&me a discount&&on these vegetables?,,,
+1,jumbles_listening_comprehension,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/587b3bac-9903-4d5a-9db8-00054f8df802-Structure---4.jpg,I'll take&&two kilos&&of these tomatoes.,,,
+1,jumbles_listening_comprehension,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/04457f54-5229-45ea-863a-1eae9ad92893-Structure---5.jpg,Do you accept&&UPI for&&payment?,,,
+1,section_type,,learn,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/21e10a38-75c6-4569-9aba-d96b91b8bc49-Structure---1.jpg,Do you have this in&&blue color?,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/51c2db1e-da46-44a2-b553-e94c7cdf72f6-Structure---2.jpg,How much do&&these vegetables cost?,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/6530a037-6233-4f0a-8f77-3f48b8ec8adc-Structure---3.jpg,Can you give&&me a discount&&on this saree?,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/587b3bac-9903-4d5a-9db8-00054f8df802-Structure---4.jpg,I'll take&&three pieces&&of this cloth.,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/04457f54-5229-45ea-863a-1eae9ad92893-Structure---5.jpg,Do you accept&&cards for&&payment?,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/21e10a38-75c6-4569-9aba-d96b91b8bc49-Structure---1.jpg,Do you have this in&&cotton material?,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/51c2db1e-da46-44a2-b553-e94c7cdf72f6-Structure---2.jpg,How much does&&this dress cost?,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/6530a037-6233-4f0a-8f77-3f48b8ec8adc-Structure---3.jpg,Can you give&&me a discount&&on these vegetables?,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/587b3bac-9903-4d5a-9db8-00054f8df802-Structure---4.jpg,I'll take&&five meters&&of this material.,,,
+2,jumbles_translate_and_learn,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/04457f54-5229-45ea-863a-1eae9ad92893-Structure---5.jpg,Do you accept&&online transfer&&for payment?,,,
+2,section_type,,practice,,,
+3,roleplay,https://r2-activity-data.gosupernova.live/system-uploads/scenario-data/2c74d9ea-e815-4539-b61f-99a97d0898e2-Homemaker---Final.jpg,"first_message: Hey! Great job on understanding this concept. Now, ""translate"" 10 sentences to English. Are you ready to start?
+prompt_id: 2b8c37a9-692f-42ac-8398-fe80471c6ce6
+questions: ""Questions: (keep these common words in english - larger size, green color, silk material, much, cost, shirt, fruits, give, discount, kurta, take, half kilo, onions, four meters, fabric, accept, cash, payment, PhonePe etc)
+1. Do you have this in a larger size?
+2. How much does this shirt cost?
+3. Can you give me a discount on these fruits?
+4. I'll take half a kilo of onions.
+5. Do you accept cash for payment?
+6. Do you have this in green color?
+7. How much does this kurta cost?
+8. Can you give me a discount on this dress?
+9. I'll take four meters of this fabric.
+10. Do you accept PhonePe for payment?""
+grammar_concept:  """"
+SYSTEM_TRANSLATION_RULES: """"",,,
+3,section_type,,translate,,,
